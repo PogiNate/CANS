@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://crazyapplenews.com
+title: Crazy Apple News Site
+subtitle: All the News We Just Made Up.
+author: Nate Dickson
 simple_search: http://google.com/search
-description:
+description: A made up news site about Apple products.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -64,7 +64,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: crazyapplenews
 twitter_tweet_button: true
 
 # Google +1
@@ -85,7 +85,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: crazyapplenews
 disqus_show_comment_count: false
 
 # Google Analytics
