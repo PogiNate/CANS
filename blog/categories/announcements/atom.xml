@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Announcements | Crazy Apple News Site]]></title>
+  <link href="http://PogiNate.github.com/CANS/blog/categories/announcements/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/CANS/"/>
+  <updated>2013-03-26T17:09:11-06:00</updated>
+  <id>http://PogiNate.github.com/CANS/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CANS Reborn!]]></title>
+    <link href="http://PogiNate.github.com/CANS/blog/2013/03/15/cans-reborn/"/>
+    <updated>2013-03-15T11:32:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/blog/2013/03/15/cans-reborn</id>
+    <content type="html"><![CDATA[<p>The Crazy Apple News Site is coming back! After many months of hybernation we are returning bigger, better, and stronger than ever. Depending on our mood we may even come back with a vengence, but we're not married to that idea. We'll just get back on our feet and then see where the mood takes us. There may be a small amount of vengence later on.</p>
+
+<p>this is a brand new hosting methodology, a brand new blog, and a brand new lease on life. Some things have been lost, but as soon as we can we'll have an archive copy of the old site up where you can check it out. Most of the old posts have made it to the new format, but on the whole the comments got it in the shorts.</p>
+
+<p><strong>But</strong> the new comments have much safer shorts, and will last much longer! Probably!</p>
+
+<p>At any rate, our signuature blend of incisive commentary and Apple biases will be coming your way just as soon as we get all the hosting bugs worked out.</p>
+]]></content>
+  </entry>
+  
+</feed>

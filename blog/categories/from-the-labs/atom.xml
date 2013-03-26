@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: From The Labs | Crazy Apple News Site]]></title>
+  <link href="http://PogiNate.github.com/CANS/blog/categories/from-the-labs/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/CANS/"/>
+  <updated>2013-03-26T17:09:11-06:00</updated>
+  <id>http://PogiNate.github.com/CANS/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Channeling Douglas Adams]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/12/channeling-douglas-adams/"/>
+    <updated>2011-12-09T00:00:00-07:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/12/channeling-douglas-adams</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>In <a href="http://en.wikipedia.org/wiki/Last_chance_to_see">Last Chance To See</a> Douglas Adams talks about writing a program that is very sexy and has pull down menus and everything, and it’s entire purpose is to figure out the volume of the nests made by a certain kind of bird. In an article called “<a href="http://www.douglasadams.com/dna/980707-00-a.html">Frank The Vandal</a>” he writes about a desire to be able to take just the parts of programs you want and paste them into a workflow so that you can do whatever it is you want to do without using six different programs. This is a mindset that resonates with me. If I can spend a few happy minutes<a href="#footnote_0_1144" title="or hours">1</a> writing pointless software to solve a problem now instead of seconds taking care of it manually once a week I will definitely go for the pointless software. It was in this vein that I tackled the following</p>
+
+<h3>Extremely Small Problem:</h3>
+
+<p>I do a lot of what <a href="http://en.wikipedia.org/wiki/Natalie_Goldberg">Natalie Goldberg</a> calls “<a href="http://en.wikipedia.org/wiki/Free_writing">practice writing</a>”. which is where you just block out some time and keep writing for that entire time. This writing can be directed, or not, but the goal is to keep moving forward, to keep putting words on the page, or, in my case, into the text document. This isn’t “real” writing that you plan to put in front of other people some day, this is just exercise, to keep those writing muscles in shape.</p>
+
+<p>When you exercise your muscles, you aren’t left with an artifact of your exercise. But when you do writing exercise, you have this document that you created, and have to do something with it. It’s possible that some part of it might be worth something to you in some context, so it seems wasteful to just delete it. Once again referring to Natalie Goldberg, these are like compost; they’re not really valuable by themselves, but if you keep piling them up there’s a chance that someday something good will grow out of them. Being the nerd that I am, I decided that I would keep all these useless little documents, and I would keep them all in one folder, so they would stay out the way.</p>
+
+<p>So, on my home Mac I set up <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> to just take those documents, rename them to today’s date (which gives me a good record of which days I did my writing practice and which days I didn’t) and shove them in a folder. All of this happens without me thinking about it, because Hazel is awesome. So, here comes the extremely small problem:</p>
+
+<p>Sometimes I do my writing practice on my laptop, which is a PC.</p>
+
+<p>Because I’m insane and picky and whatnot I use <a href="http://gottcode.org/focuswriter/">FocusWriter</a> on the PC<a href="#footnote_1_1144" title="it most closely matches the functionality of WriteRoom, which is what I use on my mac">2</a> and FocusWriter, by default, produces Rich Text files (rtf files). BUT I have WriteRoom set to produce plain text files (txt files). It’s possible that I could just set FocusWriter to save things as txt files by default, but that’s crazy talk. Simple solutions need not apply, thank you very much. And I still have the problem of getting my little documents<a href="#footnote_2_1144" title="which, you’ll remember, are pretty much worthless">3</a> from my PC to my mac, and in the right folder.</p>
+
+<p>Now, I grant you, I could move these files myself, but part of being who I am is having a rock-solid conviction that I shouldn’t be thinking about things if I can make a computer think about them for me. My ultimate goal is to be able to write something mindlessly and forget about it, secure in the knowledge that when I look for it<a href="#footnote_3_1144" title="which may nor may not ever happen, but that’s beside the point">4</a> it’ll be where I expect it to be.</p>
+
+<p>After a little bit of thinking and a little more tinkering, I came up with the following</p>
+
+<h3>Gloriously Baroque Solution:</h3>
+
+<p>The moving parts involved here are (in order):</p>
+
+<ol>
+<li><a href="http://db.tt/WW19iU5">Dropbox</a></li>
+<li>Hazel</li>
+<li><a href="http://www.apple.com/macosx/apps/all.html#automator">Automator</a></li>
+<li><a href="http://www.microsoft.com/mac/word">Word 2011 for Mac</a></li>
+<li>Hazel again</li>
+</ol>
+
+
+<p>Here’s how it goes:</p>
+
+<p>I write my useless document, and save it to a particular folder in my Dropbox. It’s instantly beamed to all the other computers that are connected to my Dropbox account.<a href="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met"><img src="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met" alt="Otto: the Automator icon" /></a></p>
+
+<p>On my mac, Hazel is monitoring that folder, and sees a new rtf file show up. It starts a rule<a href="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met">5</a> that renames the file and moves it into my “compost” folder. But the file is still an rtf instead of a txt file! Not to worry, this is where it calls Automator.</p>
+
+<p>I’ve created an Automator workflow that takes the file, loads it into Word, converts it into a txt file and saves it.<a href="#footnote_5_1144" title="and then closes Word. I don’t know why this is a separate step, but it is.">6</a>  It then hands control back to Hazel. The Hazel rule completes, and colors the label of the original rtf file gray. This triggers a second Hazel rule that is watching the compost folder. This rule does one thing: if it finds an rtf file with a gray label it puts it in the trash. Since these files are only turned gray after the txt version is created I’m no longer worried about keeping the rtf file around.</p>
+
+<p>This all works perfectly, much to my surprise, and (even more surprisingly) usually takes less than five seconds to run, even with all the Word opening and closing stuff. And since it’s happening while I’m not at my mac it’s effectively happening instantly.</p>
+
+<h3>Conclusion</h3>
+
+<p>Well, there isn’t one, really. All in all this took me about 20 minutes to set up, and will save me a few seconds of work a few times a week. But it’s work that I’m unlikely to do by myself, which would compromise the integrity of my compost folder. So, here’s to creative solutions to minuscule problems!</p>
+
+<p>Note: This article was cross-posted here and at <a href="http://coals2newcastle.com">Coals[2]Newcastle</a>.</p>
+
+<ol>
+<li>or hours [<a href="#identifier_0_1144">↩</a>]</li>
+<li>it most closely matches the functionality of <a href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a>, which is what I use on my mac [<a href="#identifier_1_1144">↩</a>]</li>
+<li>which, you’ll remember, are pretty much worthless [<a href="#identifier_2_1144">↩</a>]</li>
+<li>which may nor may not ever happen, but that’s beside the point [<a href="#identifier_3_1144">↩</a>]</li>
+<li>Hazel’s name for a set of actions that happen when a certain condition is met [<a href="#identifier_4_1144">↩</a>]</li>
+<li>and then closes Word. I don’t know why this is a separate step, but it is. [<a href="#identifier_5_1144">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[From The Labs: Mystery of Snow Leopard&#8217;s Shrinking Font Book Solved]]></title>
+    <link href="http://PogiNate.github.com/CANS/2008/07/from-the-labs-no-fonts/"/>
+    <updated>2008-07-02T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2008/07/from-the-labs-no-fonts</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Our lab tests today have conclusively revealed the reason that Snow Leopard’s Font Book application is so small.</p>
+
+<p>One of the main “features” of Apple’s nascent operating system is the reduced size of all the core OSX components.  Graphs have been bandied about showing size decreases of 80%.  Font Book, the ubiquitous “no-you-can’t-see-the-font-unless-you-click-on-it” program that allows nearly all Mac programs to slightly annoy consumers is one of those massively reduced programs, and we have disovered, in this case at any rate, how Apple did it.</p>
+
+<p>The only font in Snow Leopard’s Font Book is Helvetica Neue.</p>
+
+<p>“It was a tough decision,” remarked Jim Baxter, Apple’s SVP of fonts, while cleaning out his desk. “We had literally hundreds of fonts that have been clogging up OSX’s hard drives for nearly a decade, even though no one ever uses them.  I mean, when was the last time you used Bank Gothic? Or how about Bernard MT Condensed?  And those are just two choices from the “b” section!  Really, we feel that Helvetica Neue is the only choice needed in the future.  It’s light, professional, bright, and serious all at once.  Also Steve told me it was going to be what we go with.”</p>
+
+<p>According to our lab tests, users will be able to install other fonts, but they are no longer included by default.  This mistakenly leads Adobe to believe that they will now be making thousands of sales of their professional fonts.  We didn’t have the heart to tell them about free font web sites.</p>
+
+<p>Apple was unlikely to comment, all things considered.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[From The Labs: Parallels &#8220;28% Better&#8221; At Containing Stench of Evil than Fusion]]></title>
+    <link href="http://PogiNate.github.com/CANS/2008/05/parallels-fusion-evil/"/>
+    <updated>2008-05-20T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2008/05/parallels-fusion-evil</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p><a href="http://www.parallels.com/"><img src="http://www.parallels.com/" alt="Super-scientific graph of evil" /></a>The CANS labs have reached a shocking conclusion that may affect the outcome of the virtualization wars on the Mac.  </p>
+
+<p>According to our research, <a href="http://www.parallels.com/">Parallels</a> is 28% more effective than <a href="http://www.vmware.com/mac">VMWare Fusion</a> at keeping the stench of Windows evil out of your Mac OS.  </p>
+
+<p>“It’s well known that Windows exudes a certain amount of evil whenever it’s running,” said our lead testing ninja, “and you have to expect a certain amount of seepage. I mean, your Mac is sharing screen space, memory, audio channels, and everything else, so the Windows evil is soaking into your dock, your desktop picture, everything.”</p>
+
+<p>Overall, we found that, after 100 hours of use, Fusion poured 250 units of evil into our test iMac, while only 180 units had spilled over from Parallels.  <a href="http://www.virtualbox.org/">VirtualBox</a> was tested, but we really didn’t care about the outcome.</p>
+
+<p>“We think it has something to do with the way each system handles its desktop integration,” our ninjas report.  ”Parallels tries to contain elements in a simple ‘cohesion’, whereas Fusion seeks for real ‘unity’.”</p>
+
+<p>Fortunately, there are ways that you can mitigate the effect of Windows evil when using virtualization technology.  The first, of course, is to always run Windows in “single window” mode, so that the virtualizer will wrap a protective Cocoa frame around Windows.  This also mitigates the evil spread by using a single mouse pointer between two operating systems.</p>
+
+<p>“Never share cursors,” said <a href="http://leoville.com/">Leo Laporte. </a> ”A contaminated cursor can carry corrupted drivers, dirty files, anything.  Be sure your cursor is free of Windows before use, every time.”</p>
+
+<p>Other strong pollutants include Windows Media Player, Microsoft Office, and, of course, Internet Explorer.  </p>
+
+<p>“Basically, running Microsoft products that have perfectly acceptable Mac counterparts degrades the moral shield inherent in OSX and allows a greater flow of evil.”</p>
+
+<p>“Internet Explorer is evil,” said <a href="http://www.douglasadams.com/">Douglas Adams</a>, who came back from the dead to contribute to this article.</p>
+
+<p>When asked about the effects of running Linux in virtual machines, our lab ninjas simply stared. “Linux. In a virtual machine. On a Mac.  Why?  Why would we do that?”</p>
+
+<p>Apple declined to comment, but was seen buying some E-Z Cleen™ Evil Remover after seeing the test results.</p>
+]]></content>
+  </entry>
+  
+</feed>

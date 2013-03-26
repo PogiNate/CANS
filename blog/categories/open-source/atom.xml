@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Open Source | Crazy Apple News Site]]></title>
+  <link href="http://PogiNate.github.com/CANS/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/CANS/"/>
+  <updated>2013-03-26T17:09:11-06:00</updated>
+  <id>http://PogiNate.github.com/CANS/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Guest Review of ViTunes]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/07/guest-review-of-vitunes/"/>
+    <updated>2011-07-15T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/07/guest-review-of-vitunes</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Ladies and Gentlemen, we bring you, once again, the zombified remains of Richard M. Stallman, or ZRMS.<a href="#footnote_0_1136" title="In the crazy mixed-up earth-1 where CANS news comes from RMS is dead and a zombie that likes mac products. It’s sort of a running joke, and like most running jokes, it’s not very funny. It started here for those who are interested. ">1</a></p>
+
+<p>ZRMS has joined us today to review a product that is right up his metaphorical alley, a product, that, like himself, is from somewhere out in left field. Welcome to ZRMS’ review of <a href="http://danielchoi.com/software/vitunes.html">ViTunes</a>, the Vim interface to iTunes.</p>
+
+<hr />
+
+<p>Hello readers all. When tackling a project like reviewing a relatively obscure program that enables users of an aging open source tool to control a completely closed source and slightly anti-competitive music player, one doesn’t just slap a “thumbs up” or “thumbs down” on it and walk away whistling. It’s really hard to whistle after death, for one thing. Just don’t have the elasticity for it any more. A product like this deserves close attention, like a hapless cheerleader who’s been separated from the pack and secretly takes AP classes, so her brain is crammed full of facts, but not ones that would help her right now, like “How to avoid getting your brain eaten before taking the SAT, because that will definitely keep you out of college”. But where was I? Oh yes, ViTunes.</p>
+
+<p>Now, on the surface, this is a marriage made in hell. And those just don’t last. Look at it: Vim is a staple of open source programmers, a geek badge of courage, a sign that you are a true hacker in the old sense, and that you live life on the command line.  iTunes is a music player with completely closed source code and a lot of DRM still floating around inside it, locking users to their Macs like a spiritual ball and chain. The two shouldn’t have anything to do with one another. So, if we were to score the program on the sheer “making sense” scale, it’d have to get a negative two.</p>
+
+<p>And then there’s the potential user base scale. A venn diagram of Vim users and iTunes users would be two circles that have a microscopic overlap, something like three angstroms or less. so, on the “look I’ve got a potential market” scale we get a nice round zero, because nobody’s going to get mad at you for making this product.</p>
+
+<p>But there’s a deeper level here, something that overrides all these other considerations. The Challenge. Any real hacker knows what I mean. You program in Vim on your Mac. you like Vim, you like your Mac, and you like to listen to music. But why should you have to use any extra keystrokes to change songs or whatever? Sure, you could use something flashy like LaunchBar or Quicksilver to change songs from the keyboard, but you’ve spent all this time learning Vim and telling everyone how productive you are when you use it, so it’s time to put your money where your mouth is, isn’t it?</p>
+
+<p>That’s The Challenge. You need to make a program that will save you precious milliseconds. The programming effort will doubtlessly be orders of magnitude greater than the reward, but you’ll do it because it’s just possible you can, and you have to find out. You’re going to take the oldest and least user friendly text editor ever and the newest and least programmer friendly music player and make them work together. And for this I raise my hat to you. Well, my scalp. It fits like a hat these days. So same difference. On the “taking on and completing The Challenge” scale you, dear programmer, get 400 out of ten points. You are awesome, and we are proud to include you in our ranks.</p>
+
+<p>The ranks of true hackers, that is, not the growing ranks of the undead. That day will come soon enough.</p>
+
+<hr />
+
+<p>And there you have it, insightful, witty, and ever so slightly terrifying. Everything that we’ve come to expect from ZRMS.</p>
+
+<ol>
+<li>In the crazy mixed-up earth-1 where CANS news comes from RMS is dead and a zombie that likes mac products. It’s sort of a running joke, and like most running jokes, it’s not very funny. It started <a href="http://crazyapplenews.com/2008/05/richard-stallman-put-to-sleep/">here</a> for those who are interested. [<a href="#identifier_0_1136">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[In Brief: An Organization that Followed Apple Into the Past]]></title>
+    <link href="http://PogiNate.github.com/CANS/2009/07/classilla/"/>
+    <updated>2009-07-13T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2009/07/classilla</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Following yesterday’s announcement about Apple’s retroactive releases, a group of people decided to forge their way into the past and start the open-source <a href="http://www.floodgap.com/software/classilla/">Classilla</a> project.</p>
+
+<p>According to their website, the Classilla project is in love with the very European, very OS9-friendly iCab browser; a program that has been ready for 1989 for the past five years.</p>
+
+<p>Classilla is designed to bring the modern benefits of Mozilla-based browsers back to people still living in the 90′s, thus freeing them from the terrors that we all lived through in those days.<a href="#footnote_0_478" title="That’s right. I’m looking at you, blink tag! And don’t try to shuffle off the page, marquee!  You know what you did.">1</a></p>
+
+<p>It’s heartwarming to see people following the great ones at Apple and push the boarders backwards as well as forward.  If this trend continues we can look back and see a day where nobody using a Mac will have ever had to utter the words, “I just installed Internet Explorer on my Mac!”</p>
+
+<ol>
+<li>That’s right. I’m looking at <em>you</em>, blink tag! And don’t try to shuffle off the page, marquee!  You know what you did. [<a href="#identifier_0_478">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Softwear]]></title>
+    <link href="http://PogiNate.github.com/CANS/2008/12/softwear/"/>
+    <updated>2008-12-09T00:00:00-07:00</updated>
+    <id>http://PogiNate.github.com/CANS/2008/12/softwear</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>When we learned that Microsoft had created <a href="http://www.microsoft.com/windows/softwearbymicrosoft/story/">a line of “retro” t-shirts</a>, we had some difficult questions to answer.</p>
+
+<p>The first of which was not, “do we make fun of Microsoft for this odd new advertising medium/revenue stream?” Of course we’re going to make fun of them for it.  That’s a given.  No, the question is “how are we going to make fun of Microsoft for this odd new advertising medium/revenue stream?”</p>
+
+<p>I mean, we could take the obvious route: “These t-shirts crash 30% less than Windows Vista! Just like DOS!”</p>
+
+<p>Or the closely related: “And unlike DOS, these shirts are guaranteed to be bug-free!”</p>
+
+<p>Or even: “These shirts are guaranteed to {expletive deleted} destroy Google!”</p>
+
+<p>And we decided to step around the whole “Softwear by Microsoft: celebrating the last time we made an OS that worked the way it was supposed to,” territory.</p>
+
+<p>None of these are the route we decided to take.  No, we have a much higher, more subtle method of mocking the largest, most influential, most myopic software company in the world in mind.</p>
+
+<p>Stay tuned to this RSS feed to see what we did come up with!</p>
+
+<p>And no, we aren’t going to Photoshop Steve Ballmer’s head onto the body of some twenty-year-old model who is wearing one of these shirts.  So just get that image out of your head right now.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox No Longer Hates Macs]]></title>
+    <link href="http://PogiNate.github.com/CANS/2008/06/firefox-likes-macs-now/"/>
+    <updated>2008-06-17T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2008/06/firefox-likes-macs-now</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Firefox 3, the latest version of Mozilla’s legendary open source browser, is the first of the ‘Fox dynasty to make peace with OSX.</p>
+
+<p>For years Firefox on the Mac has been ugly, ugly like a duck covered in oil and thrown off the back of a truck into a pile of herring innards that have been sitting by the side of the road from the toxic-waste-spewing EEA violators.  But now, all is sweetness and light.   Firefox has beautiful cocoa widgets and a new theme that looks so Leopard-y that Safari is kinda jealous.</p>
+
+<p>Safari, meanwhile, is promising that good things are coming “real soon now™ ”, while the ‘Fox is running around the world like a marathon runner with a jet pack.  No, two jet packs, a transporter, and, like, a freakin’ laser cannon.  Rumors of the download site being down all morning on the big day are completely untrue and were made up by Hillary Clinton to ruin Firefox’s reputation.  Firefox is awesome.</p>
+
+<p>Out-positive that, Walt Mossberg.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Unix One-liners]]></title>
+    <link href="http://PogiNate.github.com/CANS/2008/05/unix-one-liners/"/>
+    <updated>2008-05-24T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2008/05/unix-one-liners</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Unix is user friendly…its just selective about who its friends are.<br/>
+To err is human…to really foul up requires the root password.<br/>
+Perl, the only language that looks the same before and after RSA encryption</p>
+]]></content>
+  </entry>
+  
+</feed>

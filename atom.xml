@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Crazy Apple News Site]]></title>
+  <link href="http://PogiNate.github.com/CANS/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/CANS/"/>
+  <updated>2013-03-26T17:09:11-06:00</updated>
+  <id>http://PogiNate.github.com/CANS/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CANS Reborn!]]></title>
+    <link href="http://PogiNate.github.com/CANS/blog/2013/03/15/cans-reborn/"/>
+    <updated>2013-03-15T11:32:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/blog/2013/03/15/cans-reborn</id>
+    <content type="html"><![CDATA[<p>The Crazy Apple News Site is coming back! After many months of hybernation we are returning bigger, better, and stronger than ever. Depending on our mood we may even come back with a vengence, but we&#8217;re not married to that idea. We&#8217;ll just get back on our feet and then see where the mood takes us. There may be a small amount of vengence later on.</p>
+
+<p>this is a brand new hosting methodology, a brand new blog, and a brand new lease on life. Some things have been lost, but as soon as we can we&#8217;ll have an archive copy of the old site up where you can check it out. Most of the old posts have made it to the new format, but on the whole the comments got it in the shorts.</p>
+
+<p><strong>But</strong> the new comments have much safer shorts, and will last much longer! Probably!</p>
+
+<p>At any rate, our signuature blend of incisive commentary and Apple biases will be coming your way just as soon as we get all the hosting bugs worked out.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Channeling Douglas Adams]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/12/channeling-douglas-adams/"/>
+    <updated>2011-12-09T00:00:00-07:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/12/channeling-douglas-adams</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>In <a href="http://en.wikipedia.org/wiki/Last_chance_to_see">Last Chance To See</a> Douglas Adams talks about writing a program that is very sexy and has pull down menus and everything, and it’s entire purpose is to figure out the volume of the nests made by a certain kind of bird. In an article called “<a href="http://www.douglasadams.com/dna/980707-00-a.html">Frank The Vandal</a>” he writes about a desire to be able to take just the parts of programs you want and paste them into a workflow so that you can do whatever it is you want to do without using six different programs. This is a mindset that resonates with me. If I can spend a few happy minutes<a href="#footnote_0_1144" title="or hours">1</a> writing pointless software to solve a problem now instead of seconds taking care of it manually once a week I will definitely go for the pointless software. It was in this vein that I tackled the following</p>
+
+<h3>Extremely Small Problem:</h3>
+
+<p>I do a lot of what <a href="http://en.wikipedia.org/wiki/Natalie_Goldberg">Natalie Goldberg</a> calls “<a href="http://en.wikipedia.org/wiki/Free_writing">practice writing</a>”. which is where you just block out some time and keep writing for that entire time. This writing can be directed, or not, but the goal is to keep moving forward, to keep putting words on the page, or, in my case, into the text document. This isn’t “real” writing that you plan to put in front of other people some day, this is just exercise, to keep those writing muscles in shape.</p>
+
+<p>When you exercise your muscles, you aren’t left with an artifact of your exercise. But when you do writing exercise, you have this document that you created, and have to do something with it. It’s possible that some part of it might be worth something to you in some context, so it seems wasteful to just delete it. Once again referring to Natalie Goldberg, these are like compost; they’re not really valuable by themselves, but if you keep piling them up there’s a chance that someday something good will grow out of them. Being the nerd that I am, I decided that I would keep all these useless little documents, and I would keep them all in one folder, so they would stay out the way.</p>
+
+<p>So, on my home Mac I set up <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> to just take those documents, rename them to today’s date (which gives me a good record of which days I did my writing practice and which days I didn’t) and shove them in a folder. All of this happens without me thinking about it, because Hazel is awesome. So, here comes the extremely small problem:</p>
+
+<p>Sometimes I do my writing practice on my laptop, which is a PC.</p>
+
+<p>Because I’m insane and picky and whatnot I use <a href="http://gottcode.org/focuswriter/">FocusWriter</a> on the PC<a href="#footnote_1_1144" title="it most closely matches the functionality of WriteRoom, which is what I use on my mac">2</a> and FocusWriter, by default, produces Rich Text files (rtf files). BUT I have WriteRoom set to produce plain text files (txt files). It’s possible that I could just set FocusWriter to save things as txt files by default, but that’s crazy talk. Simple solutions need not apply, thank you very much. And I still have the problem of getting my little documents<a href="#footnote_2_1144" title="which, you’ll remember, are pretty much worthless">3</a> from my PC to my mac, and in the right folder.</p>
+
+<p>Now, I grant you, I could move these files myself, but part of being who I am is having a rock-solid conviction that I shouldn’t be thinking about things if I can make a computer think about them for me. My ultimate goal is to be able to write something mindlessly and forget about it, secure in the knowledge that when I look for it<a href="#footnote_3_1144" title="which may nor may not ever happen, but that’s beside the point">4</a> it’ll be where I expect it to be.</p>
+
+<p>After a little bit of thinking and a little more tinkering, I came up with the following</p>
+
+<h3>Gloriously Baroque Solution:</h3>
+
+<p>The moving parts involved here are (in order):</p>
+
+<ol>
+<li><a href="http://db.tt/WW19iU5">Dropbox</a></li>
+<li>Hazel</li>
+<li><a href="http://www.apple.com/macosx/apps/all.html#automator">Automator</a></li>
+<li><a href="http://www.microsoft.com/mac/word">Word 2011 for Mac</a></li>
+<li>Hazel again</li>
+</ol>
+
+
+<p>Here’s how it goes:</p>
+
+<p>I write my useless document, and save it to a particular folder in my Dropbox. It’s instantly beamed to all the other computers that are connected to my Dropbox account.<a href="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met"><img src="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met" alt="Otto: the Automator icon" /></a></p>
+
+<p>On my mac, Hazel is monitoring that folder, and sees a new rtf file show up. It starts a rule<a href="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met">5</a> that renames the file and moves it into my “compost” folder. But the file is still an rtf instead of a txt file! Not to worry, this is where it calls Automator.</p>
+
+<p>I’ve created an Automator workflow that takes the file, loads it into Word, converts it into a txt file and saves it.<a href="#footnote_5_1144" title="and then closes Word. I don’t know why this is a separate step, but it is.">6</a>  It then hands control back to Hazel. The Hazel rule completes, and colors the label of the original rtf file gray. This triggers a second Hazel rule that is watching the compost folder. This rule does one thing: if it finds an rtf file with a gray label it puts it in the trash. Since these files are only turned gray after the txt version is created I’m no longer worried about keeping the rtf file around.</p>
+
+<p>This all works perfectly, much to my surprise, and (even more surprisingly) usually takes less than five seconds to run, even with all the Word opening and closing stuff. And since it’s happening while I’m not at my mac it’s effectively happening instantly.</p>
+
+<h3>Conclusion</h3>
+
+<p>Well, there isn’t one, really. All in all this took me about 20 minutes to set up, and will save me a few seconds of work a few times a week. But it’s work that I’m unlikely to do by myself, which would compromise the integrity of my compost folder. So, here’s to creative solutions to minuscule problems!</p>
+
+<p>Note: This article was cross-posted here and at <a href="http://coals2newcastle.com">Coals[2]Newcastle</a>.</p>
+
+<ol>
+<li>or hours [<a href="#identifier_0_1144">↩</a>]</li>
+<li>it most closely matches the functionality of <a href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a>, which is what I use on my mac [<a href="#identifier_1_1144">↩</a>]</li>
+<li>which, you’ll remember, are pretty much worthless [<a href="#identifier_2_1144">↩</a>]</li>
+<li>which may nor may not ever happen, but that’s beside the point [<a href="#identifier_3_1144">↩</a>]</li>
+<li>Hazel’s name for a set of actions that happen when a certain condition is met [<a href="#identifier_4_1144">↩</a>]</li>
+<li>and then closes Word. I don’t know why this is a separate step, but it is. [<a href="#identifier_5_1144">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thank You, Steve Jobs]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/10/thank-you-steve-jobs/"/>
+    <updated>2011-10-05T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/10/thank-you-steve-jobs</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>We will miss you. This site wouldn’t exist without you, for what little that’s worth. Apple will carry on, and there will be wonderful advances based on what you did, but the world won’t be the same without you.</p>
+
+<p> </p>
+
+<p>Salve atque vale.</p>
+
+<p> </p>
+
+<p>-Nate</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Brand New Old School Fun]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/08/brand-new-old-school-fun/"/>
+    <updated>2011-08-04T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/08/brand-new-old-school-fun</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Ever wonder what I do when I’m feeling bored and creative? Well, sometimes I write Interactive Fiction. If you’re looking for something to laugh at, why not take a whack at my first IF effort, <a href="http://ifiction.natedickson.com/cleches/">Clichés</a>? You can play it in your browser for free, provided you’ve nothing better to do and are willing to put up with the kind of stupid inconsistencies and bugs I’m sure are still in there. But hey, text adventures are supposed to be irritating and difficult!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Six Minutes to Lion]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/07/six-minutes-to-lion/"/>
+    <updated>2011-07-20T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/07/six-minutes-to-lion</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>I paid my 30 bones, I sat through the download, and now it’s all about the install process. What awaits my mac mini on the other side? Will all my documents be safer and somehow more stylish? Will I have a new desktop wallpaper? Why do we put wallpaper on desktops? How will I do things without a trackpad? Why did my “Time remaining:” timer just go from Five Minutes to 18 minutes? I’d like to answer these questions, but I can’t yet. I’m still watching a progress bar. So I’ll give you my current impressions of Lion, as follows:</p>
+
+<ul>
+<li>The Progress bar has square corners.</li>
+</ul>
+
+
+<p> </p>
+
+<p>So yeah, this article is not really ready yet. But that’s not stopping me from posting it! There’s a certain something about the cusp, the moments between leaving and arriving, that captivates the imagination. The trepidation of leaving behind a world you understand and the excitement of coming somewhere new, the fear that you’ll crash and burn somewhere in between. All these meet and are best expressed in the form of, well, a progress bar.</p>
+
+<p>More insight later. Assuming my computer doesn’t crash and burn<a href="#footnote_0_1137" title="Wait, how am I writing this article if my computer’s all tied up installing things?">1</a></p>
+
+<ol>
+<li>Wait, how am I writing this article if my computer’s all tied up installing things? [<a href="#identifier_0_1137">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Guest Review of ViTunes]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/07/guest-review-of-vitunes/"/>
+    <updated>2011-07-15T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/07/guest-review-of-vitunes</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Ladies and Gentlemen, we bring you, once again, the zombified remains of Richard M. Stallman, or ZRMS.<a href="#footnote_0_1136" title="In the crazy mixed-up earth-1 where CANS news comes from RMS is dead and a zombie that likes mac products. It’s sort of a running joke, and like most running jokes, it’s not very funny. It started here for those who are interested. ">1</a></p>
+
+<p>ZRMS has joined us today to review a product that is right up his metaphorical alley, a product, that, like himself, is from somewhere out in left field. Welcome to ZRMS’ review of <a href="http://danielchoi.com/software/vitunes.html">ViTunes</a>, the Vim interface to iTunes.</p>
+
+<hr />
+
+<p>Hello readers all. When tackling a project like reviewing a relatively obscure program that enables users of an aging open source tool to control a completely closed source and slightly anti-competitive music player, one doesn’t just slap a “thumbs up” or “thumbs down” on it and walk away whistling. It’s really hard to whistle after death, for one thing. Just don’t have the elasticity for it any more. A product like this deserves close attention, like a hapless cheerleader who’s been separated from the pack and secretly takes AP classes, so her brain is crammed full of facts, but not ones that would help her right now, like “How to avoid getting your brain eaten before taking the SAT, because that will definitely keep you out of college”. But where was I? Oh yes, ViTunes.</p>
+
+<p>Now, on the surface, this is a marriage made in hell. And those just don’t last. Look at it: Vim is a staple of open source programmers, a geek badge of courage, a sign that you are a true hacker in the old sense, and that you live life on the command line.  iTunes is a music player with completely closed source code and a lot of DRM still floating around inside it, locking users to their Macs like a spiritual ball and chain. The two shouldn’t have anything to do with one another. So, if we were to score the program on the sheer “making sense” scale, it’d have to get a negative two.</p>
+
+<p>And then there’s the potential user base scale. A venn diagram of Vim users and iTunes users would be two circles that have a microscopic overlap, something like three angstroms or less. so, on the “look I’ve got a potential market” scale we get a nice round zero, because nobody’s going to get mad at you for making this product.</p>
+
+<p>But there’s a deeper level here, something that overrides all these other considerations. The Challenge. Any real hacker knows what I mean. You program in Vim on your Mac. you like Vim, you like your Mac, and you like to listen to music. But why should you have to use any extra keystrokes to change songs or whatever? Sure, you could use something flashy like LaunchBar or Quicksilver to change songs from the keyboard, but you’ve spent all this time learning Vim and telling everyone how productive you are when you use it, so it’s time to put your money where your mouth is, isn’t it?</p>
+
+<p>That’s The Challenge. You need to make a program that will save you precious milliseconds. The programming effort will doubtlessly be orders of magnitude greater than the reward, but you’ll do it because it’s just possible you can, and you have to find out. You’re going to take the oldest and least user friendly text editor ever and the newest and least programmer friendly music player and make them work together. And for this I raise my hat to you. Well, my scalp. It fits like a hat these days. So same difference. On the “taking on and completing The Challenge” scale you, dear programmer, get 400 out of ten points. You are awesome, and we are proud to include you in our ranks.</p>
+
+<p>The ranks of true hackers, that is, not the growing ranks of the undead. That day will come soon enough.</p>
+
+<hr />
+
+<p>And there you have it, insightful, witty, and ever so slightly terrifying. Everything that we’ve come to expect from ZRMS.</p>
+
+<ol>
+<li>In the crazy mixed-up earth-1 where CANS news comes from RMS is dead and a zombie that likes mac products. It’s sort of a running joke, and like most running jokes, it’s not very funny. It started <a href="http://crazyapplenews.com/2008/05/richard-stallman-put-to-sleep/">here</a> for those who are interested. [<a href="#identifier_0_1136">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Funeral Services to be Held For Mobile Me]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/07/funeral-services-to-be-held-for-mobile-me/"/>
+    <updated>2011-07-12T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/07/funeral-services-to-be-held-for-mobile-me</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>A solemn occasion has befallen us, friends. Mobile Me, who just a few years ago looked to be back and healthier than ever, has taken a turn for the worse, and Apple has announced that they will be officially pulling the plug on the ailing service in the near future. Services will be held in Mobile Me’s honor on January 1st, 2012.</p>
+
+<p>The late date is at Mobile Me’s personal request, if request it was. “I was always terrible at remembering dates,” Me said from his hospital server in Apple’s data center. he then laughed feebly. “the first day of the new year, it’s got a nice feel to it, doesn’t it?”</p>
+
+<p>Mobile Me will be survived by iOS, OSX, and of iCloud, who stands to inherit Mobile Me’s domain name and email addresses.</p>
+
+<p>“What to say about Mobile Me? Wow, we go way back,” said an aging Snow Leopard. “We grew up together, really. He started reaching out to the iPad though, and I think that’s what did for ‘im. All that stretching, trying to keep all those things in line this late in the game, well, it’s just not what he was made for is it? he shoulda stuck to the iDisk, I told ‘im. ‘Course, I’m one to talk, ain’t I? He’ll probably hang around long enough to see me in the grave and that new long head OSX 10.7 swaggering all over the place. Ah well.”</p>
+
+<p>“I’m grateful to Mobile Me for everything he’s done,” said the iPad. “Without him my Calendar App would have been just another toy for people with access to Exchange servers, but Mobile Me helped families keep track of each other, and that’s a good feeling. I’m sure iCloud will pick up where his dad left off, but he can’t ever fill his shoes. For one thing, web services don’t wear shoes, and for another, well, iCloud’s just a little too free, if you know what I mean. I mean, Mobile Me didn’t just let anybody ride, he had some class. But it’s a new day, so we move on I guess. Rest well, Mobile Me, and thanks.”</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lion Launch Parties: Best Name, Worst Turnout]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/07/lion-launch-parties-best-name-worst-turnout/"/>
+    <updated>2011-07-08T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/07/lion-launch-parties-best-name-worst-turnout</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Self interest has curtailed interest in gathering to celebrate the latest release of OSX, promised later this month.</p>
+
+<p>“Don’t get me wrong, I enjoy hanging out with other people talking on their iPhon 4’s, while tweeting on their iPads, but it’s different this time,” said a young man wearing glasses that would have been in vogue in the late 50’s and a hairstyle that looked like somebody stuck his hair in a blender with a bunch of used motor oil and turned it on. “But if we all get together and try to download Lion at the same time it’ll slow all of us down. Sure, Apple may have a huge new data center in North Carolina, but we’ve got a 5Mbps connection on this end, and you can only pass so many downloads over that at a time.”</p>
+
+<p>Several Apple Sophisticates have suggested having “<em>Apres Load” </em>where everyone brings their newly lionized MacBooks to a party and discuss how awesome the world is now that their trackpads do neat tricks, but “it’s just not the same” moaned a person of indeterminate gender into their faux-martini.</p>
+
+<p>Several of the more seasoned apple faithful were also somewhat at a loss as to how to celebrate the new OS in a manner that truly commemorated one of the most economical and at the same time most graphically inhanced versions of OSX without crowding each other bandwidth-wise. “If we could set up some sort of AppleTalk protocol to share the file from system to system it would be different, but this new Mac App Store doesn’t really work that way.” Said a person who drew blank stares from the hipster graphic design community when he said AppleTalk. “Is that like, networking stuff? Like, an airport?” one of them timidly suggested. “My IT guys take care of all that stuff for me.”</p>
+
+<p>One person in the back made a wizard of Oz joke, but nobody thought it was funny.</p>
+
+<p>Apple was unlikely to comment.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lack of 32-bit Lion Angers People]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/06/lack-of-32-bit-lion-angers-people/"/>
+    <updated>2011-06-27T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/06/lack-of-32-bit-lion-angers-people</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>A number<a href="#footnote_0_1132" title="two">1</a> of people are up in arms about the recent<a href="#footnote_1_1132" title="well, recent-ish">2</a> announcement that OSX 10.7 aka “Lion” will only be available for 64-bit Intel processors, leaving everyone who is still using a 32-bit “Core Duo” Mac out in the cold. With their Snow Leopard.</p>
+
+<p>“It’s like they don’t even care about us any more,” Said W. H. Iner, president of MOWERS<a href="#footnote_2_1132" title="Mac Owners Who Eschew RISC-based Systems">3</a> . We happily moved over to the new Intel chips as quick as possible, and six months later Apple replaced our beloved “Core Duo” chips with “Core 2 Duo” chips. That name doesn’t even make sense, by the way. How does the “2” in the middle of “Core” and “Duo” mean 64-bit instead of 32-bit?”</p>
+
+<p>Neither Apple nor Intel deigned to respond, but mathematicians were quick to point out that 32*2 does indeed equal 64.</p>
+
+<p>“It’s like they want us to all buy new Apples every five years or something,” Iner continued.</p>
+
+<p>While Apple was still silent on this point, economists would be forced to conclude that, being a company that sells computer hardware, it would be in Apple’s best interest for their customers to replace their computer hardware on a regular basis.</p>
+
+<p>“After all, how hard can it be to just sort of translate all their precious 64-bit code into 32-bit code for us to use? It wouldn’t run that much slower, and then we could use all the shiny new features like Launchpad and that new Expose thingy.”</p>
+
+<p>Apple has yet to provide a reply to this claim, but several Computer Scientists brains exploded before they were able to provide a coherent reply. Jumbled statements about “exponential complexity” and “blazingly stupid people” were amongst their final words. One was able to calmly address the second point, noting that the video cards in these systems would now be considered underpowered even by Apple’s fairly lax standards, and the fancy new graphical thingies in Lion would look “incredibly terrible” on the six year old hardware.</p>
+
+<p>“I just don’t know how Apple can expect to keep growing if they ignore their user’s needs after just six years,” Iner concluded.</p>
+
+<p>While we are still awaiting a response from Apple on this point, but economists mildly reminded us that Apple is one the largest and fastest-growing companies on the planet at this point. How the lack of sales to the members of MOWERS would affect this statistic has yet to be seen.</p>
+
+<ol>
+<li>two [<a href="#identifier_0_1132">↩</a>]</li>
+<li>well, recent-ish [<a href="#identifier_1_1132">↩</a>]</li>
+<li>Mac Owners Who Eschew RISC-based Systems [<a href="#identifier_2_1132">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Florida, Idaho, and Moab. The Adventure Never Ended.]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/06/florida-idaho-and-moab-the-adventure-never-ended/"/>
+    <updated>2011-06-24T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/06/florida-idaho-and-moab-the-adventure-never-ended</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Long have I wandered, friendless<a href="#footnote_0_1129" title="Except for my wife, kids, and friends">1</a> and alone<a href="#footnote_1_1129" title="see above exception">2</a> in distant lands. Far have I driven, far have I flown, and when I was not flying or driving I was playing host to a host of visitors from foreign climes<a href="#footnote_2_1129" title="Idaho and Alaska mostly">3</a>. Thus do I seek to excuse my lack of Apple-centered craziness for the last few weeks.<a href="#footnote_3_1129" title="Also I got a new job, but that’s no big deal">4</a>.</p>
+
+<p>And what have I learned? What treasures do I bring from my sojourns? Treasures of knowledge? Rich spices from Idaho? Alligator teeth and knowledge of the fountain of youth from Florida? Red Dirt from Moab? Well, yes to the last one. LOTS of red dirt. So much red dirt. Seriously, half of southern Utah is still in my wife’s Suburban. But rich spices from Idaho? What do you want? Beet sugar? Potatoes? They have those. But I was in Boise, where all they have is a mall and lots of suburbs. And Trees. And a river. No spices though, is my point. Not a spice-laden region of earth.</p>
+
+<p>But, I have just invented one treasure that I bring to you, a genuine, made up letter from Steve Jobs to all Apple employees, titled “Some Thoughts On Being the Best”</p>
+
+<h2>Some Thoughts on Being the Best</h2>
+
+<p>Heed me, O Minions,</p>
+
+<p>The great day is soon upon us. The war that started with the humble iPod has seen its killing stroke in the iPad. We now rule the mobile world. Let us therefore celebrate! Make glad! Feast we now on ambrosia and drink we deep the mead of victory!</p>
+
+<p>In your case this means you get an extra fifteen minutes on your lunch break this Tuesday. Being drunk on work time is still a firing offense.</p>
+
+<p>But we must not stop now. There are still those who have sought to cast aspersions on our rise, magnifying our few flaws into “gates”, seeking to embarrass us. This shall not stand.</p>
+
+<p>Also, Phil Schiller shall no longer stand next to me. He’s too tall. But I digress. Elegantly, intelligently, perhaps, but it’s digression nonetheless.</p>
+
+<p>Many of you have wondered at the new campus, and indeed you should, for it is a wonder of the modern world. But why? Why have we put the time into making this round wonder, and what inspired its design?</p>
+
+<p>Well, the click wheel of course. But there’s more to it than that.</p>
+
+<p>Soon, our masterpiece will be finished, then shall the chosen employees be taken up in our new Campus to the true new campus: The moon.</p>
+
+<p>Yes, in order that we may escape the slings and arrows of outrageous Windows users, all key Apple employees will be lifted to Apple Luna, our new campus on the near side of the moon. This position will give us many advantages, not least of which is the fact that on the moon I can expect to live a good thirty or forty more years, and by that time I expect that we’ll have some kind of immortality treatment. But again, I digress.</p>
+
+<p>From our inaccessible fortress we will watch them fight each other, Windows vs. Linux and periodically we shall send down our blessings upon them in the form of new mobile operating systems and Jony’s latest thinking in industrial design.</p>
+
+<p>He’s really into pleather lately, so expect some interesting new iPads, by the way.</p>
+
+<p>Apple Luna will be ecologically sound, as there is currently no plant or animal life on the moon. Our terraforming efforts will begin immediately, and we expect that in a few years we will be ready to open the houses on One Lunar Loop. Until then you’ll all be basically living at your desks. But the cafeteria will be cheaper, in recognition of the unique situation you’ve been put in, which is to say, fully dependent on Apple for all food and housing and everything.</p>
+
+<p>Those of you who have not been assigned desks in the new complex probably don’t need to worry about packing. After all, we need a few people here planetside to keep things on track.</p>
+
+<p> </p>
+
+<p>Steve.</p>
+
+<ol>
+<li>Except for my wife, kids, and friends [<a href="#identifier_0_1129">↩</a>]</li>
+<li>see above exception [<a href="#identifier_1_1129">↩</a>]</li>
+<li>Idaho and Alaska mostly [<a href="#identifier_2_1129">↩</a>]</li>
+<li>Also I got a new job, but that’s no big deal [<a href="#identifier_3_1129">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Crazy on the Road: Orlando]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/crazy-on-the-road-orlando/"/>
+    <updated>2011-04-30T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/crazy-on-the-road-orlando</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Tired of snow, wind, rain, and all the related weather systems? So are we. That’s why we at CANS HQ are packing the whole shebang into one personal item and one carry-on item and flying to Orlando FL for a week.</p>
+
+<p>The fact that our employer is paying us to go to some sort of conference thingy there doesn’t enter into it at all. We’re just going to see what kinds of uses alligators have for iPads, and if the iPhone 4 has invaded the magic kingdom. Although truthfully, unless someone other than our own illustrious selves unbelts for magic kingdom admission, we’ll probably stick to less-magical kingdoms and keep hold of our mundane but useful pictures of dead presidents.</p>
+
+<p>Also, let us all hope that, at the end of the trip, I can say with absolute honesty “no hard drives were injured in the making of this week’s articles.” Unlike last time.</p>
+
+<p> </p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Mac App Store]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/the-mac-app-store/"/>
+    <updated>2011-04-27T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/the-mac-app-store</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Today we thought we’d do an in-depth, hard hitting review of the Mac App Store, <a href="http://apple.com">Apple</a>’s newest way to cash in on developers distribute software. But then we remembered we write  a humor blog, not one of those Gawker monstrosities. So instead we’re just going to make fun of it.<a href="#footnote_0_1120" title="Which may or may not involve hitting things hard.">1</a></p>
+
+<h3>(App) Store? Huh. What is it good for?</h3>
+
+<p> </p>
+
+<p>The easy answer of course is “absolutely nothing”. But the problem with the path of “the easy answer” is twofold: first, it curtails actual thought, instead lulling us to sleep with its facile nature. Also, it makes for really short articles.</p>
+
+<p>True, at first glance, the App Store doesn’t seem to add a lot to the end user’s experience. It gives you automatic updating…kind of. It’s automatic in the sense of “you get notified that there are updates every time you open the App Store, then you have to download them by yourself” instead of the sense of “happens, you know, <em>automatically</em>”. True, the <a href="http://sparkle.andymatuschak.org/">Sparkle framework</a> handles this much easier<a href="#footnote_1_1120" title="and doesn’t cost the developer 30% of their sale price">2</a> and prompts you to update when you open the actual <em>app</em>, instead of the App <em>Store</em>, but that’s not the point. The point is that now the user, any user, can find a wealth of apps all in one place, without mucking about on the dirty messy scary internet. So that’s a benefit to the user.</p>
+
+<p>Well, it would be, except the majority of the apps on the App Store are, well, terrible. Sure, you’ve got all the good ones, Like <a href="http://www.literatureandlatte.com/scrivener.php">Scrivener</a>, <a href="http://www.red-sweater.com/marsedit/">Mars Edit</a><a href="#footnote_2_1120" title="which I would be using to write this post if I could afford a license.">3</a> All of Apple’s awesome software, The <a href="http://www.omnigroup.com/">Omni group’s</a> usual offerings, etc. etc.</p>
+
+<p>But these are well-established players in the game of Mac Software. For the most part they’re in the store just because it’s easy, and it’s more-or-less free advertising<a href="#footnote_3_1120" title="App Store costs aren’t much higher than maintaining your own distribution channel or using other third parties, and are much lower than selling software the old fashioned way, with discs and boxes and stuff. Look, let’s not get into this here, okay?">4</a> and a pretty high chance that they’ll be a featured app, and that just can’t be bad. But what about the stuff that’s never been available anywhere but the App Store? Are there any real standout players that are just getting into the game, and are getting into it via the shiny new Apple-sanctioned distribution channel?</p>
+
+<p>Nope.</p>
+
+<p>Sure, we’ve got a lot of iPad apps coming “Back to the Mac”. Apparently the refactor from magical touch-screen device to revolutionary and finely tuned desktop computer isn’t that difficult, and there are all kinds of Angry Birds on the mac now.<a href="#footnote_4_1120" title="Angry Birds just looks stupid on a 23” screen, by the way">5</a> But what about the rest of the store? Well, it’s…the kind of thing we’ve come to expect on the iOS app store. A tiny little app that costs you $.99 and lets you track your weight is acceptable on a phone, but it just looks stupid on a desktop. So what happened? Why aren’t we getting the kind of buy-in to the Mac App Store that made the iOS App Store such a huge deal and spawned a thousand copycats? Let’s look at it from the software creator’s point of view.</p>
+
+<h3>A Day in the Life of a Developer</h3>
+
+<p> </p>
+
+<p>So there you are, a fervent Apple fan boy or girl who has the best possible idea for a new app: the Kittenizer. Soon people worldwide will be posting pictures made better by the artistic and subtle addition of giant Impact-font additions to their images, all drawn from their Twitter and Facebook feeds. The muse grips you, and you must get your program out to the world. But how?</p>
+
+<p>Well, who’s your audience? If you want to write in a cross-platform language, like Java or Flex, then you’re locked out of the Mac App Store. No big deal, you’ll write a Windows version later.</p>
+
+<p>So, that means you’re learning Cocoa and Objective-C. Cool. So you start writing your app, and genius that you are, you have it ready to go in less than eight hours.<a href="#footnote_5_1120" title="I called this section “A Day in the Life” and I mean to stick to it. Even if it means becoming really really implausible in the process.">6</a> Your beta testers<a href="#footnote_6_1120" title="your mom, your sister, and your sister’s boyfriend">7</a> all rave about the app, and it hasn’t had a major crash in <em>minutes</em>. So now you’re off to the races! Let’s get that App in the App Store and out where everyone can know the joy of your buzzword-powered masterpiece.</p>
+
+<p>Not so fast! First you need to cough up $99. Just like the iOS Store, there’s a bar that says “you must be this well off to ride this ride” before you get into the Magic Kingdom. So you go to your beta testers and some other friends and scrape together the money, pay Apple, and make your way through their steps to get your product out there. And after you submit your app, you sit back, looking forward to the moment when your app goes on sale, when you’re getting rewarded for your brilliance. How knows, maybe you’ll even end up as a featured app, or maybe you’ll get a huge award at next year’s WWDC! Maybe your app will even get–</p>
+
+<p>Rejected.</p>
+
+<p>What? Why? You scan the email, and, it’s insanely vague. Don’t worry, young one, you’re <a href="http://www.red-sweater.com/blog/1854/marsedit-3-2-2">not alone</a>. Still undeterred, you spend a few minutes getting Sparkle built into your app<a href="#footnote_7_1120" title="it doesn’t require any code changes, it lives in Interface Builder">8</a> and a few hours setting up a system that handles activations and whatnot. Finally, just before midnight the Kittenizer is up and for sale on your own personal website.</p>
+
+<h3>In the End…</h3>
+
+<p> </p>
+
+<p>It looks like we’re really really down on the Mac App Store. And while we don’t think it’s the best idea in the world, it’s not entirely terrible. But a platform that’s antagonistic to both the developer <em>and</em> the customer is a platform that could use some more love and attention, or else it’s going to end up like the <a href="http://en.wikipedia.org/wiki/Zune_Software#Zune_Marketplace">Zune Marketplace</a>, and nobody wants that.</p>
+
+<ol>
+<li>Which may or may not involve hitting things hard. [<a href="#identifier_0_1120">↩</a>]</li>
+<li>and doesn’t cost the developer 30% of their sale price [<a href="#identifier_1_1120">↩</a>]</li>
+<li>which I would be using to write this post if I could afford a license. [<a href="#identifier_2_1120">↩</a>]</li>
+<li>App Store costs aren’t much higher than maintaining your own distribution channel or using other third parties, and are much lower than selling software the old fashioned way, with discs and boxes and stuff. Look, let’s not get into this here, okay? [<a href="#identifier_3_1120">↩</a>]</li>
+<li>Angry Birds just looks stupid on a 23” screen, by the way [<a href="#identifier_4_1120">↩</a>]</li>
+<li>I called this section “A Day in the Life” and I mean to stick to it. Even if it means becoming really really implausible in the process. [<a href="#identifier_5_1120">↩</a>]</li>
+<li>your mom, your sister, and your sister’s boyfriend [<a href="#identifier_6_1120">↩</a>]</li>
+<li>it doesn’t require any code changes, it lives in Interface Builder [<a href="#identifier_7_1120">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Friday iFAQ: Bowtie]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/friday-ifaq-bowtie/"/>
+    <updated>2011-04-22T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/friday-ifaq-bowtie</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy <a href="http://apple.com">Apple</a> user, get more out of your Crazy Apple products.</p>
+
+<p>This week we seek for some solace in nostalgia with the advent of <a href="http://bowtieapp.com/">Bowtie</a>, a skinnable iTunes controller.</p>
+
+<p>Q: A What-able what now? What is the madness you are saying with your face?</p>
+
+<p>A: Oh, come on, we were all there. Remember the early 2000’s when you were finally able to play music on your computer, and you had all these cool skins for your music player?</p>
+
+<p>Q: No.</p>
+
+<p>A: Sure you do. You could make it look like a brain, and the buttons were made out of wrinkles on the brain’s surface, or you could have it look like a big piano with the control buttons outlined on the keys, or whatever.</p>
+
+<p>Q: Nope!</p>
+
+<p>A: Wow, did you miss out. All the music players did it. Windows Media Player, Winamp, RealPlayer…</p>
+
+<p>Q: All windows programs you’ll notice.</p>
+
+<p>A: Er, well, see, I didn’t get my first mac until 2006, so…</p>
+
+<p>Q: Well, for those of us who have always used good computers we’ve used boring, gray old iTunes and liked it. We don’t need your silly skinnable thingies.</p>
+
+<p>A: But look, you’ve got a chance now! Bowtie is free in the Mac App Store, and you can have a little player that shows you what album you’re listening to, has all your controls, and is really really out of the way AND cool looking, all at the same time!</p>
+
+<p>Q: I don’t really see the point…</p>
+
+<p>A: AND it lets you love or ban songs on Last.fm, so people know what you think about the music you’re listening to! That’s something we couldn’t do back in the day, back with dumb ol’ web 1.0</p>
+
+<p>Q: So there really isn’t a point.</p>
+
+<p>A: The point is to have fun! Come on, it’s spring! The sky is bright, life is good, maybe you should loosen up a bit too! Sometimes things can just be fun. I’m using it to listen to the Tron: Legacy soundtrack right now, just because I can!</p>
+
+<p>Q: Hmmm, not sure I can lower my standards of “fun” quite that far.</p>
+
+<p>A: *sigh*. Okay, Mr. Boring Pants. Go watch your news programs and listen to your collection of the 100 greatest renditions of <em>4&#8217;.33&#8221;</em> I’ll catch you later.</p>
+
+<p>Q: What’s wrong with <em><a href="http://en.wikipedia.org/wiki/4'33%22">4&#8217;33&#8221;</a></em>?</p>
+
+<p>A: Oh, it’s nothing.<a href="#footnote_0_1119" title="I couldn’t resist">1</a></p>
+
+<ol>
+<li>I couldn’t resist [<a href="#identifier_0_1119">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Quicksilver Rides Again&hellip;Again]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/quicksilver-rides-againagain/"/>
+    <updated>2011-04-21T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/quicksilver-rides-againagain</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Fans of really slick interactions probably use LaunchBar will be excited to know that <a href="http://www.blacktree.com/">Quicksilver</a>, the famous keyboard-based productivity app, is <a href="http://qsapp.com/">rising</a> once again from the grave to speed your interactions with all them files on your hard drive.<a href="#footnote_0_1118" title="We would like to point out that this would be an easy place to comment about the file the iPhone uses to follow you around all day, but we’ll refrain.">1</a></p>
+
+<p>Open Source wonks will tell you that this is the value of Open Source, that a project can live on beyond it’s original owner losing interest.<a href="#footnote_1_1118" title="Which reminds us, we haven’t heard from ZRMS in a while">2</a> Guardians of Commercial software would gently point out that the whole point of paying for software is to ensure that you don’t have to wait for the developer to go on spring break to get new features. Maybe someday we’ll do a fireside chat ‘bout that, but for now, feel free to go get a new version of QS if you’re not already using LaunchBar and start doing really zippy things like pasting text into a file without opening it or whatever. </p>
+
+<ol>
+<li>We would like to point out that this would be an easy place to comment about the file the <a href="http://crazyapplerumors.com/2011/04/21/apple-provides-fabulous-new-feature-free-of-charge/">iPhone uses to follow you around all day</a>, but we’ll refrain. [<a href="#identifier_0_1118">↩</a>]</li>
+<li>Which reminds us, we haven’t heard from ZRMS in a while [<a href="#identifier_1_1118">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Friday iFAQ: Twitter for Mac]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/friday-ifaq-twitter-for-mac/"/>
+    <updated>2011-04-08T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/friday-ifaq-twitter-for-mac</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, get more out of your Crazy Apple products.</p>
+
+<p>This week, it’s all about Twitter’s creatively named Twitter client: Twitter for Mac <a href="http://twitter.com/#!/search/#stupidname">#stupidname</a> <a href="http://twitter.com/#!/search/Ilikehashtags">#Ilikehashtags</a></p>
+
+<p><strong>Q</strong>: So what’s the big deal with Twitter in the first place? Lots of short messages flying around all over the place, forcing people to abbrev</p>
+
+<p><strong>Q</strong>: Ah, so we’re doing that, are we? all our questions and answers have to be less than 140 characters?</p>
+
+<p><strong>A</strong>: Yep! It’ll help you stop whinging( on about stupid crap. <a href="http://twitter.com/#!/search/#justsayin">#justsayin</a></p>
+
+<p><strong>Q</strong>: So the point is to get us all to distill the essence of what we want to say, to refine our thinking and use every letter effectively?</p>
+
+<p><strong>A</strong>: Well, I think originally it was just because that was the length of a standard text message. <a href="http://twitter.com/Pogue">@Pogue</a> would know. He’s like, a Twitter god.</p>
+
+<p><strong>Q</strong>: 138, 139, 140. Wow, you’re way too good at getting EXACTLY 140 characters in there. Should I be scared?</p>
+
+<p><strong>A</strong>: Why? It’s just a way to communicate with people, and get a sense of what’s going on in the world around us.</p>
+
+<p><strong>Q</strong>: Okay, whatever. I’m going to allow–for the moment–that Twitter has validity as a form of communication. But why do I need an app?</p>
+
+<p><strong>A</strong>: Well, it makes it easier to see what’s happened in your feed, post replies…</p>
+
+<p><strong>Q</strong>: Easier than going to a web site? That does the exact same thing?</p>
+
+<p><strong>A</strong>: Well, for one thing, the app wastes far less screen space with stupid things like <a href="http://twitter.com/#!/search/#trendingtopics">#trendingtopics</a>. Seriously, I hate those.</p>
+
+<p><strong>Q</strong>: And yet you linked to a discussion about them. Odd.</p>
+
+<p><strong>A</strong>: Yeah, sorry about that. It gets to be a habit after a while. <a href="http://twitter.com/#!/search/#Ijustcannotstopmyself">#Ijustcannotstopmyself</a></p>
+
+<p><strong>Q</strong>: Yeah, I’m still not sold. Not just on the client either. I don’t see a real point for Twitter in general.</p>
+
+<p><strong>A</strong>: Well, there’s not much I can say to change your mind. It’s all free, so you can try it out, see if you like it.</p>
+
+<p><strong>A</strong>: The name is very appropriate: there’s a lot of tweets, like birds in a tree, but they’re all really short and not a big deal. <a href="http://twitter.com/#!/search/#nobigdeal">#nobigdeal</a></p>
+
+<p><strong>Q</strong>: Almost thou convincest me to become a…what exactly? Tweeter? Twit? Bird?</p>
+
+<p>A: Yeah, nobody’s really sure. <a href="http://twitter.com/#!/search/#ohwell">#ohwell</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Study Shows &ldquo;Less Than Half&rdquo; of Apple Employees Use Ping]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/new-study-shows-less-than-half-of-apple-employees-use-ping/"/>
+    <updated>2011-04-06T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/new-study-shows-less-than-half-of-apple-employees-use-ping</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Completely non-shocking news from Cupertino today as it’s revealed that only around 40% of <a href="http://apple.com">Apple</a> Employees actually <em>use</em> Apple’s new <a href="http://www.apple.com/itunes/ping/">Ping</a> service.</p>
+
+<p>“I don’t know, it just doesn’t seem to be very useful,” said Pre Tend, who asked to remain nameless. “I tried it for a while, but none of my friends are on there, and everybody’s already on Facebook. So I just use that.”</p>
+
+<p>“I go through the motions. I mean, I’ll review a song or two every so often,” said P. Schilller, who asked that we not identify him in this article. “Just to keep Steve and Tim happy, you know. I’ll review a song or something. But really, who wants everyone to know when they’re listening to <em>Inna Gadda Da Vida</em> for the fifth time that day? Er, not that I’ve done that. I think…I think Scott does that.”</p>
+
+<p>There are others who say that the service provides a vibrant link between fans and artists, and that it’s just getting started. Unfortunately we were unable to reach any of them for comment. Officially, Apple remains confident that Ping will eventually be like Facebook without the freedom. When asked for a comment on the results of the study, an Apple spokesperson said “hey that’s 40% than the national average! So things are looking up!”</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Overheard in the Boardroom: Preparing for WWDC]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/overheard-in-the-boardroom-preparing-for-wwdc/"/>
+    <updated>2011-04-05T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/overheard-in-the-boardroom-preparing-for-wwdc</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p><strong>Tim Cook</strong>: Listen, guys, we’ve got to get this right.</p>
+
+<p><strong>Phil Schiller</strong>: Okay, sorry, Tim. We’re ready this time.</p>
+
+<p><strong>Cook</strong>: Good. Okay, one, two, three, four!</p>
+
+<p><strong>Peter Oppenheimer</strong>: A-wheem a way, a wheem a way…</p>
+
+<p><strong>Jony Ive</strong>: In the iMac, the peaceful iMac, Lion’s been installed!</p>
+
+<p><strong>Scott Forstall</strong>: De-we-um-um-a-way!</p>
+
+<p><strong>Ive</strong>: On the MacBook, the 13” MacBook, Lion’s been installed!</p>
+
+<p><strong>Forstall</strong>: WEEEEEEEEEE-de-de-de a Whum-a-way!</p>
+
+<p><strong>Schiller</strong>: Hush my darling, iOS and Lion, share lots of good ideas. Full-screen apps and, gestures for actions, make Lion excellent!</p>
+
+<p><strong>Forstall</strong>: Hey! Hey! Whoa-a-wo! Whoa-a-wo a Wheem-o-whum-whum-a-way!</p>
+
+<p><strong>Schiller</strong>: Wait, wait, Tim, he’s doing it again.</p>
+
+<p><strong>Cook</strong>: What’s wrong Phil?</p>
+
+<p><strong>Schiller:</strong> Scott keeps singing his weem-o-whum-a-ways over the top of my words.</p>
+
+<p><strong>Ive:</strong> Also, I only have one line, despite the fact that I’m the best looking of us.</p>
+
+<p><strong>Forstall:</strong> I’m angry that my verse about beta testers being amazing was cut!</p>
+
+<p><strong>John Mayer: </strong>I’m mad that I’m not invited to sing at these events any more</p>
+
+<p><strong>Cook: </strong>Who let lizard boy in here? [on intercom] Security! John Mayer broke in again.</p>
+
+<p><strong>Oppenheimer:</strong> I still think it should be pronounced “Wheem o whip!”</p>
+
+<p><strong>Forstall:</strong> Look, Pete, we’ve been over this. That’s clearly not how you say it—</p>
+
+<p><strong>Schiller:</strong> Why are we worrying about how you say it? We should just worry about the fact that Scott keeps singing over my lines!</p>
+
+<p><em>[everyone starts talking at once. Jony Ive seems to just be saying “rhubarb, rhubarb!” over and over again]</em></p>
+
+<p><strong>Cook: </strong>Listen, Listen! Guys, we’ve got to get this right!</p>
+
+<p><strong>Schiller: </strong>Okay, sorry, Tim. We’re ready this time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[XCode 4 in the App Store: Apple&rsquo;s April Fool&rsquo;s Day Joke]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/04/xcode-4-in-the-app-store-apples-april-fools-day-joke/"/>
+    <updated>2011-04-01T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/04/xcode-4-in-the-app-store-apples-april-fools-day-joke</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>At first, it just doesn’t make sense. <a href="http://apple.com">Apple</a> is selling, <em>selling</em> XCode, that amazing—and previously free—programmer’s delight of an IDE that is the gateway to the riches of putting your programs in the App Stores.</p>
+
+<p>Don’t get me wrong, XCode 4 is a massive improvement on the previous versions, with everything integrated into a single window, a massive improvement on the previous versions’ tendency to spread windows over your entire desktop and eventually into other Spaces, just because there are so dang many of them. The new debugger is faster, more intuitive, gives you good stack traces, even on multiple threads, and actually tries to trace your local variables and display them in a way that makes sense to humans, again something at which XCode 3 struggled.</p>
+
+<p>So many of us purchased XCode 4 from the app store, telling ourselves that, considering how much Windows developers pay for <a href="http://www.microsoft.com/visualstudio/en-us/products/2010-editions/premium">Visual Studio</a> we were getting off easy. And we downloaded the 4.5 Gigabyte file, and we ran the installer, and everything was good. XCode 4 was installed! Life was happy. Blithely we deleted the Installer file that the App Store dropped into our Applications folders and started tinkering around with all the new features, like Git integration and a useful timeline view of code changes and whatnot.</p>
+
+<p>Then, a few days later, Apple released version 4.0.1 of the app. Well, we had noticed a few things that were kinda buggy with the initial release, so that’s to be expected. We go into the App Store, expecting an upgrade notification and…nothing. The App Store says we haven’t installed XCode 4. But look! It’s running right there! Lo and behold, deleting the 4.5 Gigabyte installer file from our Applications folder is what told the App Store that we no longer had XCode on our drive. So we download the new version—all 4.5 Gigabytes of it—and reinstall. The awful truth dawns slowly: we have to keep that stupid installer file to get our “convenient” automatic updates.</p>
+
+<p>This, I feel, is too coincidental. It is clearly a joke, played upon the Apple developer community and their ISP’s. Apple is too smart to saddle their developers with a gigantic dead weight file and massive downloads for every patch release. Fortunately, they’ve given us some clues. Look at the version number: <strong>4.0.1</strong>. Does that suggest anything to you? Looks a lot like 4/1, doesn’t it? Yep, it’s an April Fool’s day joke.</p>
+
+<p>Okay, Apple, you’ve had your fun. Now let’s make with version 4.0.2 getting rid of the annoyance factors. I’ve got better uses for that huge chunk of hard drive space. Thank you.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apple to Declare &ldquo;Open Season&rdquo; on Full-Screen Writing software]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/03/apple-to-declare-open-season-on-full-screen-writing-software/"/>
+    <updated>2011-03-22T00:00:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/03/apple-to-declare-open-season-on-full-screen-writing-software</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Cupertino <a href="http://apple.com">Apple</a> announced today that they are “concerned” that the number of Full-Screen Writing Programs may soon be more than the Apple Ecosystem can handle, and that they will be declaring an “Open Season” on the little blighters.</p>
+
+<p>“It started out innocently enough,” said Sina Tamaddon, VP of Applications at Apple, Inc. “We had <a href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a>, which was a nice little app. I mean, get serious, it’s TextEdit stretched out and colored. But really, no harm done. Later some of the bigger writing apps, like Ulysses and <a href="http://literatureandlatte.com/">Scrivener</a> added full screen views. Heck, we added it to Pages. But now these little full-screen text editor programs are popping up like mice. <a href="http://www.ommwriter.com/">OmmWriter Dana</a> added some pretty music and background graphics, but this new <a href="http://bywordapp.com/">Byword</a>? It’s like Pages on the iPad for the Mac. We should have come up with that!</p>
+
+<p>“The full-Screen Writing program epidemic is a small part of the larger threat,” said Dr. Weisman, a made-up pompous guy with leather patches on his elbows. No, no tweed jacket. “Like any ecosystem, the Mac app ecosystem needs to maintain a delicate balance. Too many graphics programs and the businessmen wander off. Too many spreadsheets, and there go all your artists,” at this point Weisman started to giggle. “I’m just kidding. Artists would be eaten alive on a PC. Two seconds after they brought it home it’d be so full of viruses and spyware they’d have to unplug it and take the battery out just to get it to stop shouting obscene phrases at them. But that’s beside the point. The point is, the number of writing programs currently in the mac ecosystem is threatening that delicate balance. Scrivener, we’ve got nothing against Scrivner. And <a href="http://pagehand.com/">Pagehand</a>, we like Pagehand.<a href="#footnote_0_1111" title="Apparently Dr. Weisman also likes repeating himself.">1</a> But these newcomers are starting to crowd out the long-standing, upstanding, outstanding old guys like <a href="http://www.nisus.com/">NisusWriter</a> or <a href="http://www.redlers.com/">Mellel</a>. Sure, the new ones are easy to use. But they don’t have history, or deep roots, and they don’t keep people from flowing downhill into PC territory.”</p>
+
+<p>“Yes, exactly,” Tamaddon said, wresting control back from the somewhat creepy doctor. “so, starting in the summer of 2011, we will be selling tags for hunters to remove certain Full-Screen Writing programs from the ecosystem. We want to make sure it’s done humanely, no porting a program to Linux or anything like that. We’re thinking that tags will begin at $40, after you join the Apple Hunter Program, which is quite reasonable at $99/year, and includes a license for XCode 4.”</p>
+
+<p>Tamaddon mentioned that Scott Forstall would be monitoring this program closely, and if it proved successful would be offering a similar system for “all those dang iOS ToDo list apps.”</p>
+
+<ol>
+<li>Apparently Dr. Weisman also likes repeating himself. [<a href="#identifier_0_1111">↩</a>]</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Friday iFAQ: Hordes of Orcs 2]]></title>
+    <link href="http://PogiNate.github.com/CANS/2011/03/friday-ifaq-hordes-of-orcs-2/"/>
+    <updated>2011-03-11T00:00:00-07:00</updated>
+    <id>http://PogiNate.github.com/CANS/2011/03/friday-ifaq-hordes-of-orcs-2</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy <a href="http://apple.com">Apple</a> user, get more out of your Crazy Apple products.</p>
+
+<p>This week we pay a visit to the land of one of our favorite made up correspondents, Grug the Orc. Grug is sporting a shiny new interface in the <a href="http://www.freeverse.com/mac/product/?id=9023">update</a> to his native land of…What is your native land called, Grug?</p>
+
+<p>A: Grug not know. We call it “wooden gate”.</p>
+
+<p>Q: So tell us, what makes Hordes of Orcs 2 such a great new addition to the H.o.O. dynasty?</p>
+
+<p>A: This just sick, you know.</p>
+
+<p>Q: Why?</p>
+
+<p>A: Why you ask Grug about new ways to kill Grug’s family?</p>
+
+<p>Q: Family. Really.</p>
+
+<p>A: Well, all us orcs instances of same class. It like family!</p>
+
+<p>Q: So, asking you about the new and improved gameplay feels a bit heartless then?</p>
+
+<p>A: What improved? Now player can use big railgun to kill orcs. But orcs still not fight back much.</p>
+
+<p>Q: You’re not really selling the product there, Grug.</p>
+
+<p>A: Grug feel deep sense of orc pride, not want to send more members of family into trenches.</p>
+
+<p>Q: I guess we can respect that. So…let’s talk about something else, then?</p>
+
+<p>A: Okay. It your website. What questions you have?</p>
+
+<p>Q: Ummm…what do you do in your spare time?</p>
+
+<p>A: Grug teaching self to use ray tracing software. Make computer still life pictures.</p>
+
+<p>Q: Huh. Well, that’s interesting. What have you done so far?</p>
+
+<p>A: Oh you know, made a teapot, made a sphere on a column, a human getting shot by a lightning tower, all the basics.</p>
+
+<p>Q: Riiiight.</p>
+
+<p>A: Sometimes Grug suspects he has rage issues that need worked out.</p>
+
+<p>Q: Well that’s all the time we have…</p>
+
+<p>A: Grug never knew his parent class! Grug an orphan!</p>
+
+<p>Q: Join us next time for more iFAQ’s and less…orc emotion.</p>
+
+<p>A: Grug so lonely! All Grug ever wanted was a friend!</p>
+]]></content>
+  </entry>
+  
+</feed>
