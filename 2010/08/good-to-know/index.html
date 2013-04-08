@@ -9,9 +9,8 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content=" [![&#8220;Alert Title: Alert: Something happened.&#8221;][2]][2]
-Thanks for letting me know?
-">
+  <meta name="description" content="[![“Alert Title: Alert: Something happened.”][2]][2]
+Thanks for letting me know? []: http://crazyapplenews.com/wp-content/uploads/2010/08/Awesome- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -96,10 +95,12 @@ Thanks for letting me know?
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
-<p>[![&#8220;Alert Title: Alert: Something happened.&#8221;][2]][2]
+<p>[![“Alert Title: Alert: Something happened.”][2]][2]
 Thanks for letting me know?</p>
+
+<p>[]: http://crazyapplenews.com/wp-content/uploads/2010/08/Awesome-Alert.jpg</p>
 </div>
 
 
@@ -163,6 +164,14 @@ Thanks for letting me know?</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -174,17 +183,27 @@ Thanks for letting me know?</p>
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

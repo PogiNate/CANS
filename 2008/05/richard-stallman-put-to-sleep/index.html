@@ -94,7 +94,7 @@
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
 <p>Sad news from the world of open source computing today as <a href="http://en.wikipedia.org/wiki/Image:Wikimania_stallman_keynote2.jpg">Richard Stallman</a>, founder of the Free Software Foundation and principle author of the GNU Public License, was put to sleep.</p>
 
@@ -104,25 +104,27 @@
 
 <p>In recent months Stallman’s mental stability has weakened, as evidenced by a recent manifesto calling for a change in the name of most operating systems:</p>
 
-<blockquote><p>In order to underscore the role that GPL’d software plays in our lives, we need to convey to people the idea that the GNU foundation is at the heart of all good software. To this end we need to use the following names:</p>
+<blockquote>
+  <p>In order to underscore the role that GPL’d software plays in our lives, we need to convey to people the idea that the GNU foundation is at the heart of all good software. To this end we need to use the following names:</p>
 
-<ul>
-<li>All IBM Products will be called “Prison/DOS”</li>
-<li>FreeBSD will be called “GNU/FreeBSD”</li>
-<li>OpenBSD will be called “GNU/OpenBSD”</li>
-<li>No, SERIOUSLY, call it GNU/Linux!  Stop laughing at me!  I mean it!</li>
-<li>OSX has been heavily influenced by free software.  It should be called GNU.5/OSX.  </li>
-<li>Windows will be called “Spawn of Satan”.</li>
-</ul>
+  <ul>
+    <li>All IBM Products will be called “Prison/DOS”</li>
+    <li>FreeBSD will be called “GNU/FreeBSD”</li>
+    <li>OpenBSD will be called “GNU/OpenBSD”</li>
+    <li>No, SERIOUSLY, call it GNU/Linux!  Stop laughing at me!  I mean it!</li>
+    <li>OSX has been heavily influenced by free software.  It should be called GNU.5/OSX.  </li>
+    <li>Windows will be called “Spawn of Satan”.</li>
+  </ul>
 
-
-<p>…</p></blockquote>
+  <p>…</p>
+</blockquote>
 
 <p>The manifesto continues for several more pages.</p>
 
 <p>“We do need to remember the things that Richard has done for the community,” remarked Linus Torvalds, creator of Linux. “I mean, without him there would be no open source, and the GPL version 2.0 really is a masterpiece of legal writing. But, no, it’s called Linux, not ‘GNU/Linux’, or ‘Stallman/Linux’, or ‘FSF/Linux’ or whatever unpronounceable crap he wants to call  my, I mean, ‘our’ operating system.”</p>
 
 <p>Apple was contacted for a comment, but it was busy watching old episodes of <em><a href="http://en.wikipedia.org/wiki/Joanie_Loves_Chachi" title="Joanie Loves Chachi">Joanie Loves Chachi</a></em>  and weeping gently to itself.</p>
+
 </div>
 
 
@@ -186,6 +188,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -197,17 +207,27 @@
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

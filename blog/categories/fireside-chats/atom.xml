@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Fireside Chats | Crazy Apple News Site]]></title>
   <link href="http://PogiNate.github.com/CANS/blog/categories/fireside-chats/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/CANS/"/>
-  <updated>2013-04-05T13:09:11-06:00</updated>
+  <updated>2013-04-08T15:53:55-06:00</updated>
   <id>http://PogiNate.github.com/CANS/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,7 +18,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/03/fireside-chats-iphone-4-and-ipad-2/"/>
     <updated>2011-03-05T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/03/fireside-chats-iphone-4-and-ipad-2</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Welcome to another Fireside Chat. Today we have the latest hotness in in the Apple lineup: the iPhone 4 and the up and coming iPad 2. Gentledevices, welcome to the studio.</p>
 
@@ -36,13 +36,13 @@
 
 <p>iPhone: Well it can only be positive, can’t it? I mean, we’re not really in competition are we? I think of us as a team, two players on the same side.</p>
 
-<p>iPad: I have to agree. It’s like asking what kind of effect my sales will have on the sales of Mac Minis. Sure, we cost about the same, but we’re totally different products with entirely different applications. Any one of us doing well only helps the others.</p>
+<p>iPad: I have to agree. It’s like asking what kind of effect my sales will have on the sales of Mac Minis. Sure, we cost about the same, but we’re totally different products with entirely different applications. Any one of us doing well only helps the others. </p>
 
 <p>Moderator: So, iPad, you feel that your success will only help iPhone, is that correct?</p>
 
 <p>iPad: Yes.</p>
 
-<p>iPhone: I agree.</p>
+<p>iPhone: I agree. </p>
 
 <p>Moderator: So, do you feel that your competition benefits from this kind of synergy?</p>
 
@@ -103,7 +103,7 @@
     <link href="http://PogiNate.github.com/CANS/2010/10/fireside-chats-apple-tv-and-google-tv/"/>
     <updated>2010-10-04T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2010/10/fireside-chats-apple-tv-and-google-tv</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Welcome to another episode of fireside chats. Today we look at two up and coming descendants of the monster that was WebTV set-top compu-media devices: Apple’s Apple TV and Google’s Google TV.<a href="#footnote_0_971" title="Creative Names Not Included">1</a></p>
 
@@ -127,7 +127,7 @@
 
 <p>M: Apple, what sets you apart from the competition?</p>
 
-<p>A: Well, it’s the experience, isn’t it? Set me down, plug me in, and you’re off and running. There’s no learning curve; you already know how my interface works. You have instant access to all your photos, music, and movies on all your computers, and you can rent movies and TV shows instantly from the couch.</p>
+<p>A: Well, it’s the experience, isn’t it? Set me down, plug me in, and you’re off and running. There’s no learning curve; you already know how my interface works. You have instant access to all your photos, music, and movies on all your computers, and you can rent movies and TV shows instantly from the couch. </p>
 
 <p>M: Google, same question.</p>
 
@@ -135,7 +135,7 @@
 
 <p>A: I can do Netflix!</p>
 
-<p>G: Amazon Unbox,</p>
+<p>G: Amazon Unbox, </p>
 
 <p>A: I can…watch movies from iTunes.</p>
 
@@ -178,7 +178,7 @@
 <p>M: Well, this has been a thorough waste of our time then. Until next time, I’m your nameless Moderator, and this has been Fireside Chats. Goodnight.</p>
 
 <ol>
-<li>Creative Names Not Included [<a href="#identifier_0_971">↩</a>]</li>
+  <li>Creative Names Not Included [<a href="#identifier_0_971">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -189,11 +189,11 @@
     <link href="http://PogiNate.github.com/CANS/2010/09/fireside-chats-ios-and-osx/"/>
     <updated>2010-09-13T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2010/09/fireside-chats-ios-and-osx</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Join us once again for Fireside Chats, where we bring two points of view together and hope they start hitting each other with chairs, Jerry Springer style. And if ever there was a pairing less likely to do that than our two current guests, we’ve never heard of it.</p>
 
-<p>Today we have iOS, the up-and-coming jack-of-all-devices operating system, and OSX, the elegant master of big computers.<br/>
+<p>Today we have iOS, the up-and-coming jack-of-all-devices operating system, and OSX, the elegant master of big computers.<br />
 Moderator: Gentlesystems, welcome.</p>
 
 <p><strong>iOS</strong>: It’s good to be here.</p>
@@ -208,7 +208,7 @@ Moderator: Gentlesystems, welcome.</p>
 
 <p><strong>iOS</strong>: I am humbled and honored.</p>
 
-<p><strong>Moderator</strong>: So, OSX, not to tread on this tender moment, but it kinda sounds like you’re giving up there.</p>
+<p><strong>Moderator</strong>: So, OSX, not to tread on this tender moment, but it kinda sounds like you’re giving up there. </p>
 
 <p><strong>OSX</strong>: The battle may still be won, but the field is no longer central to the war. Still, we put up the good fight, and expect success on this front.</p>
 
@@ -255,7 +255,7 @@ Moderator: Gentlesystems, welcome.</p>
     <link href="http://PogiNate.github.com/CANS/2010/08/fireside-chats-mac-vs-pc/"/>
     <updated>2010-08-04T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2010/08/fireside-chats-mac-vs-pc</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>It seems appropriate, as the long TV relationship between Mac and PC winds to a close, to bring the two of them into the studio here. But instead of continuing the age-old battle, we thought we’d narrow it to a specific field. Specifically, the $700 mac mini vs. a $700 home-built PC.</p>
 
@@ -322,7 +322,7 @@ Moderator: Gentlesystems, welcome.</p>
     <link href="http://PogiNate.github.com/CANS/2010/06/fireside-chat-ipad-and-flash/"/>
     <updated>2010-06-14T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2010/06/fireside-chat-ipad-and-flash</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p><em>Welcome to the first installment of Fireside Chats, a new feature where we discuss both sides of an issue in a relaxed, informal setting. These fireside chats are completely neutral and seek to understand both sides equally. In this fireside chat we’ll be pondering the ideological divide between iPads and games made by sixteen-year-olds with hacked copies of Macromedia’s Adobe’s decrepit web content development platform. Taking the part of the iPad will be Steve Jobs<a href="#footnote_0_858" title="or a reasonable facsimile thereof">1</a> . Taking the part of Flash will be a semi-concussed street “performance artist” who calls himself “Dr. Space”.  Let’s join them now.</em></p>
 
@@ -344,9 +344,9 @@ Moderator: Gentlesystems, welcome.</p>
 
 <p><strong>Dr. Space:</strong> Mice drive when MEN should be SLEEPIN’! Mice have seen the Wall of Truth, and they turned to eat it! I know they do! I garden the planets, and I have BEEN in the WALL!</p>
 
-<p><strong>Moderator: </strong>That to one side, and it’s a good point, I don’t think we’ve answered the security question.</p>
+<p>**Moderator: **That to one side, and it’s a good point, I don’t think we’ve answered the security question.</p>
 
-<p><strong>Steve Jobs: </strong>The most important reason is the problems stemming from a third party supplying a cross platform development tool. The third party may not adopt enhancements from one platform unless they are available on all of their supported platforms. Hence developers only have access to the lowest common denominator set of features. Again, we cannot accept an outcome where developers are blocked from using our innovations and enhancements because they are not available on our competitor’s platforms.</p>
+<p>**Steve Jobs: **The most important reason is the problems stemming from a third party supplying a cross platform development tool. The third party may not adopt enhancements from one platform unless they are available on all of their supported platforms. Hence developers only have access to the lowest common denominator set of features. Again, we cannot accept an outcome where developers are blocked from using our innovations and enhancements because they are not available on our competitor’s platforms.</p>
 
 <p><strong>Moderator:</strong> Mr. Jobs, again, this doesn’t really relate to the security issue. But since you bring it up, let’s discuss third party development tools. Apple has definitely settled on a platform–</p>
 
@@ -354,18 +354,18 @@ Moderator: Gentlesystems, welcome.</p>
 
 <p><strong>Moderator:</strong> Er, Mr. Jobs, your response?</p>
 
-<p><strong>Steve Jobs: </strong>Wow, man, how can I respond to that? I mean, he’s got a point. Look, you chose well. This guy, this guy is good. YEAH!</p>
+<p>**Steve Jobs: **Wow, man, how can I respond to that? I mean, he’s got a point. Look, you chose well. This guy, this guy is good. YEAH!</p>
 
 <p><strong>Dr. Space:</strong> YEAH!</p>
 
-<p><strong>Slappy:</strong> [turtle noises that Dr. Space assured us meant "YEAH!"]</p>
+<p><strong>Slappy:</strong> [turtle noises that Dr. Space assured us meant “YEAH!”]</p>
 
 <p><strong>Moderator:</strong> And that’s all the time we have for today. Join us next time when we discuss the de-emphasis of OSX in the Apple mindset. Thank you.</p>
 
 <ol>
-<li>or a reasonable facsimile thereof [<a href="#identifier_0_858">↩</a>]</li>
-<li>Yes, most of these will come straight from Steve’s “Thoughts on Flash” on the Apple website. [<a href="#identifier_1_858">↩</a>]</li>
-<li>Dr. Space mostly comes from my brother in law, and a guy I met in the Philippines. [<a href="#identifier_2_858">↩</a>]</li>
+  <li>or a reasonable facsimile thereof [<a href="#identifier_0_858">↩</a>]</li>
+  <li>Yes, most of these will come straight from Steve’s “Thoughts on Flash” on the Apple website. [<a href="#identifier_1_858">↩</a>]</li>
+  <li>Dr. Space mostly comes from my brother in law, and a guy I met in the Philippines. [<a href="#identifier_2_858">↩</a>]</li>
 </ol>
 
 ]]></content>

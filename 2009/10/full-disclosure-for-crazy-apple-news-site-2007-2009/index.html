@@ -94,18 +94,17 @@
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
 <p>In order to be fully compliant with <a href="http://www.macworld.com/article/143135/2009/10/bloggers_ftc.html?lsrc=rss_main">this new guideline</a>, the CANS staff does hereby make the following disclosure:</p>
 
 <p>In the 1.5 years we have been covering Apple news and events, we have received the following material considerations:</p>
 
 <ul>
-<li><strong>From Apple, Inc, their subsidiary and affiliate companies:</strong> Nothing, valued at $0.</li>
-<li><strong>From Microsoft, and former Microsoft CEO Bill Gates:</strong> Nothing, valued at $0.</li>
-<li><strong>From New York Times Columnist David Pogue:</strong> 1 less-than-thrilled comment on an article we wrote a while ago, valued at roughly 20 new hits on our site from people who saw that thing I put on twitter.</li>
+  <li><strong>From Apple, Inc, their subsidiary and affiliate companies:</strong> Nothing, valued at $0.</li>
+  <li><strong>From Microsoft, and former Microsoft CEO Bill Gates:</strong> Nothing, valued at $0.</li>
+  <li><strong>From New York Times Columnist David Pogue:</strong> 1 less-than-thrilled comment on an article we wrote a while ago, valued at roughly 20 new hits on our site from people who saw that thing I put on twitter.</li>
 </ul>
-
 
 <p>We hope this will help you make more informed decisions about our trustworthiness as a source of Crazy Apple News.</p>
 
@@ -173,6 +172,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -184,17 +191,27 @@
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

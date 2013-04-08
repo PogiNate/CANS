@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Review | Crazy Apple News Site]]></title>
   <link href="http://PogiNate.github.com/CANS/blog/categories/review/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/CANS/"/>
-  <updated>2013-04-05T13:09:11-06:00</updated>
+  <updated>2013-04-08T15:53:55-06:00</updated>
   <id>http://PogiNate.github.com/CANS/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,7 +18,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/07/guest-review-of-vitunes/"/>
     <updated>2011-07-15T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/07/guest-review-of-vitunes</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Ladies and Gentlemen, we bring you, once again, the zombified remains of Richard M. Stallman, or ZRMS.<a href="#footnote_0_1136" title="In the crazy mixed-up earth-1 where CANS news comes from RMS is dead and a zombie that likes mac products. It’s sort of a running joke, and like most running jokes, it’s not very funny. It started here for those who are interested. ">1</a></p>
 
@@ -30,9 +30,9 @@
 
 <p>Now, on the surface, this is a marriage made in hell. And those just don’t last. Look at it: Vim is a staple of open source programmers, a geek badge of courage, a sign that you are a true hacker in the old sense, and that you live life on the command line.  iTunes is a music player with completely closed source code and a lot of DRM still floating around inside it, locking users to their Macs like a spiritual ball and chain. The two shouldn’t have anything to do with one another. So, if we were to score the program on the sheer “making sense” scale, it’d have to get a negative two.</p>
 
-<p>And then there’s the potential user base scale. A venn diagram of Vim users and iTunes users would be two circles that have a microscopic overlap, something like three angstroms or less. so, on the “look I’ve got a potential market” scale we get a nice round zero, because nobody’s going to get mad at you for making this product.</p>
+<p>And then there’s the potential user base scale. A venn diagram of Vim users and iTunes users would be two circles that have a microscopic overlap, something like three angstroms or less. so, on the “look I’ve got a potential market” scale we get a nice round zero, because nobody’s going to get mad at you for making this product. </p>
 
-<p>But there’s a deeper level here, something that overrides all these other considerations. The Challenge. Any real hacker knows what I mean. You program in Vim on your Mac. you like Vim, you like your Mac, and you like to listen to music. But why should you have to use any extra keystrokes to change songs or whatever? Sure, you could use something flashy like LaunchBar or Quicksilver to change songs from the keyboard, but you’ve spent all this time learning Vim and telling everyone how productive you are when you use it, so it’s time to put your money where your mouth is, isn’t it?</p>
+<p>But there’s a deeper level here, something that overrides all these other considerations. The Challenge. Any real hacker knows what I mean. You program in Vim on your Mac. you like Vim, you like your Mac, and you like to listen to music. But why should you have to use any extra keystrokes to change songs or whatever? Sure, you could use something flashy like LaunchBar or Quicksilver to change songs from the keyboard, but you’ve spent all this time learning Vim and telling everyone how productive you are when you use it, so it’s time to put your money where your mouth is, isn’t it? </p>
 
 <p>That’s The Challenge. You need to make a program that will save you precious milliseconds. The programming effort will doubtlessly be orders of magnitude greater than the reward, but you’ll do it because it’s just possible you can, and you have to find out. You’re going to take the oldest and least user friendly text editor ever and the newest and least programmer friendly music player and make them work together. And for this I raise my hat to you. Well, my scalp. It fits like a hat these days. So same difference. On the “taking on and completing The Challenge” scale you, dear programmer, get 400 out of ten points. You are awesome, and we are proud to include you in our ranks.</p>
 
@@ -40,10 +40,10 @@
 
 <hr />
 
-<p>And there you have it, insightful, witty, and ever so slightly terrifying. Everything that we’ve come to expect from ZRMS.</p>
+<p>And there you have it, insightful, witty, and ever so slightly terrifying. Everything that we’ve come to expect from ZRMS. </p>
 
 <ol>
-<li>In the crazy mixed-up earth-1 where CANS news comes from RMS is dead and a zombie that likes mac products. It’s sort of a running joke, and like most running jokes, it’s not very funny. It started <a href="http://crazyapplenews.com/2008/05/richard-stallman-put-to-sleep/">here</a> for those who are interested. [<a href="#identifier_0_1136">↩</a>]</li>
+  <li>In the crazy mixed-up earth-1 where CANS news comes from RMS is dead and a zombie that likes mac products. It’s sort of a running joke, and like most running jokes, it’s not very funny. It started <a href="http://crazyapplenews.com/2008/05/richard-stallman-put-to-sleep/">here</a> for those who are interested. [<a href="#identifier_0_1136">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -54,11 +54,11 @@
     <link href="http://PogiNate.github.com/CANS/2011/04/the-mac-app-store/"/>
     <updated>2011-04-27T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/04/the-mac-app-store</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Today we thought we’d do an in-depth, hard hitting review of the Mac App Store, <a href="http://apple.com">Apple</a>’s newest way to cash in on developers distribute software. But then we remembered we write  a humor blog, not one of those Gawker monstrosities. So instead we’re just going to make fun of it.<a href="#footnote_0_1120" title="Which may or may not involve hitting things hard.">1</a></p>
 
-<h3>(App) Store? Huh. What is it good for?</h3>
+<h3 id="app-store-huh-what-is-it-good-for">(App) Store? Huh. What is it good for?</h3>
 
 <p> </p>
 
@@ -74,7 +74,7 @@
 
 <p>Sure, we’ve got a lot of iPad apps coming “Back to the Mac”. Apparently the refactor from magical touch-screen device to revolutionary and finely tuned desktop computer isn’t that difficult, and there are all kinds of Angry Birds on the mac now.<a href="#footnote_4_1120" title="Angry Birds just looks stupid on a 23” screen, by the way">5</a> But what about the rest of the store? Well, it’s…the kind of thing we’ve come to expect on the iOS app store. A tiny little app that costs you $.99 and lets you track your weight is acceptable on a phone, but it just looks stupid on a desktop. So what happened? Why aren’t we getting the kind of buy-in to the Mac App Store that made the iOS App Store such a huge deal and spawned a thousand copycats? Let’s look at it from the software creator’s point of view.</p>
 
-<h3>A Day in the Life of a Developer</h3>
+<h3 id="a-day-in-the-life-of-a-developer">A Day in the Life of a Developer</h3>
 
 <p> </p>
 
@@ -90,21 +90,21 @@
 
 <p>What? Why? You scan the email, and, it’s insanely vague. Don’t worry, young one, you’re <a href="http://www.red-sweater.com/blog/1854/marsedit-3-2-2">not alone</a>. Still undeterred, you spend a few minutes getting Sparkle built into your app<a href="#footnote_7_1120" title="it doesn’t require any code changes, it lives in Interface Builder">8</a> and a few hours setting up a system that handles activations and whatnot. Finally, just before midnight the Kittenizer is up and for sale on your own personal website.</p>
 
-<h3>In the End…</h3>
+<h3 id="in-the-end">In the End…</h3>
 
 <p> </p>
 
 <p>It looks like we’re really really down on the Mac App Store. And while we don’t think it’s the best idea in the world, it’s not entirely terrible. But a platform that’s antagonistic to both the developer <em>and</em> the customer is a platform that could use some more love and attention, or else it’s going to end up like the <a href="http://en.wikipedia.org/wiki/Zune_Software#Zune_Marketplace">Zune Marketplace</a>, and nobody wants that.</p>
 
 <ol>
-<li>Which may or may not involve hitting things hard. [<a href="#identifier_0_1120">↩</a>]</li>
-<li>and doesn’t cost the developer 30% of their sale price [<a href="#identifier_1_1120">↩</a>]</li>
-<li>which I would be using to write this post if I could afford a license. [<a href="#identifier_2_1120">↩</a>]</li>
-<li>App Store costs aren’t much higher than maintaining your own distribution channel or using other third parties, and are much lower than selling software the old fashioned way, with discs and boxes and stuff. Look, let’s not get into this here, okay? [<a href="#identifier_3_1120">↩</a>]</li>
-<li>Angry Birds just looks stupid on a 23” screen, by the way [<a href="#identifier_4_1120">↩</a>]</li>
-<li>I called this section “A Day in the Life” and I mean to stick to it. Even if it means becoming really really implausible in the process. [<a href="#identifier_5_1120">↩</a>]</li>
-<li>your mom, your sister, and your sister’s boyfriend [<a href="#identifier_6_1120">↩</a>]</li>
-<li>it doesn’t require any code changes, it lives in Interface Builder [<a href="#identifier_7_1120">↩</a>]</li>
+  <li>Which may or may not involve hitting things hard. [<a href="#identifier_0_1120">↩</a>]</li>
+  <li>and doesn’t cost the developer 30% of their sale price [<a href="#identifier_1_1120">↩</a>]</li>
+  <li>which I would be using to write this post if I could afford a license. [<a href="#identifier_2_1120">↩</a>]</li>
+  <li>App Store costs aren’t much higher than maintaining your own distribution channel or using other third parties, and are much lower than selling software the old fashioned way, with discs and boxes and stuff. Look, let’s not get into this here, okay? [<a href="#identifier_3_1120">↩</a>]</li>
+  <li>Angry Birds just looks stupid on a 23” screen, by the way [<a href="#identifier_4_1120">↩</a>]</li>
+  <li>I called this section “A Day in the Life” and I mean to stick to it. Even if it means becoming really really implausible in the process. [<a href="#identifier_5_1120">↩</a>]</li>
+  <li>your mom, your sister, and your sister’s boyfriend [<a href="#identifier_6_1120">↩</a>]</li>
+  <li>it doesn’t require any code changes, it lives in Interface Builder [<a href="#identifier_7_1120">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -115,7 +115,7 @@
     <link href="http://PogiNate.github.com/CANS/2010/07/from-pans-the-pre-apple-notes-and-scribblings/"/>
     <updated>2010-07-26T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2010/07/from-pans-the-pre-apple-notes-and-scribblings</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>(Since iPhone 4 fever is still going–albeit waning– we are pleased to bring you a newly unearthed journal written by Liliburn H. Jobs shortly after he settled in what was to become Cupertino. Only a few entries are still legible; the journal was found in a box tangled in the roots of a tree.)</p>
 
@@ -132,16 +132,16 @@
     <link href="http://PogiNate.github.com/CANS/2009/08/rip-tr-im/"/>
     <updated>2009-08-10T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2009/08/rip-tr-im</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Martyn Williams, who surely had better things to do, chose instead to write about the <a href="http://bit.ly/LbSya">downfall of tr.im</a>, a nearly unknown url shortener, who sought to compete with the equally stupid sounding <a href="http://bit.ly">bit.ly</a>, <a href="http://tinyurl.com">tinyurl.com</a>, and the almost-longer-than-the-original <a href="http://readthisurl.com">readthisurl.com</a>. And we here at CANS are glad he did, as we were all set to launch into the beta testing phase of our own url shortening website.  We had already run into a few snags with our program, not the least of which was the fact that our “shortened” urls were promising to look something like “http://crazyapplenews.com/shortening/index.php/sle4231xfSEslkeyggiotr78Cvdew” <a href="#footnote_0_500" title="I was going to actually make that link live, but decided at the last moment not to do three hours of coding and testing for a one-line throw away gag">1</a></p>
 
-<p>We will now observe a minute of silence for the fallen tr.im, shortened to three seconds, as they would have wanted it. </p>
+<p>We will now observe a minute of silence for the fallen tr.im, shortened to three seconds, as they would have wanted it.  </p>
 
 <p>Thank you.</p>
 
 <ol>
-<li>I was going to actually make that link live, but decided at the last moment not to do three hours of coding and testing for a one-line throw away gag [<a href="#identifier_0_500">↩</a>]</li>
+  <li>I was going to actually make that link live, but decided at the last moment not to do three hours of coding and testing for a one-line throw away gag [<a href="#identifier_0_500">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -152,20 +152,20 @@
     <link href="http://PogiNate.github.com/CANS/2009/03/the-mac-minis-personality-change/"/>
     <updated>2009-03-05T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2009/03/the-mac-minis-personality-change</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>With the release of the newest versions of the iMac, Mac Pro, and Mac mini lines, the Mac mini has been changed from an underpowered, “me too” system into a much more powerful “me too” system. Sporting a brand new NVIDIA chipset and up to 4 GB of RAM, the mini is now actually useful. We went to our local Apple Store to interview the mini and see how it likes its new styles.<br/>
+<p>With the release of the newest versions of the iMac, Mac Pro, and Mac mini lines, the Mac mini has been changed from an underpowered, “me too” system into a much more powerful “me too” system. Sporting a brand new NVIDIA chipset and up to 4 GB of RAM, the mini is now actually useful. We went to our local Apple Store to interview the mini and see how it likes its new styles.<br />
 “Oh yeah. Check this out, iPhone. They came to talk to me, pal. No new story about you this week, huh? Gee, that’s too bad. Looks like mini’s getting all the attention these days! Anyway, what was your question?” We asked again how the mini was enjoying its new chipset, but it was distracted by someone looking at the Mac Pro on display next to it.</p>
 
 <p>“Why are you looking at Behemoth over there? Are you suddenly Pixar employees? Do you really need 40 pounds of aluminum to send your little forwarded emails? Or maybe you think you’re gonna write the next great rock opera. Guess what? I can run Garage Band just as well as The Obelisk over there, and you can carry me home on your lap, instead of using a forklift to get Gigantor over there through the front door. Come on, step away from the monster machine.”</p>
 
 <p>“It’s hard for Apple products to not be the ‘top of the line’,” said iPod Touch. “Mini’s been a weak link in the desktop lineup for a long time, and Pro has definitely let mini know where he stands. iMac? Oh no, she’s always been nice to mini, and he really looks up to her. I mean, we all do. But now that mini has a lot more power and has gotten center stage for the first time since his introduction, well, it’s kinda gone to his processor, if you know what I mean.</p>
 
-<p>“But like I was saying, we Apple products are designed to be the best of the best, and when you’re constantly the runner up, it can be hard on your self esteem,” Touch continued. “I’m not proud of this, but when I went Second Generation and got my 32GB option, I kinda let iPhone know about it, you know? I tried to be nice to the Nanos, but it felt good to put iPhone in his place.” Here Touch broke off, seeing an iPod Classic walk by. “Hey, Classic! How’s your dinosaur hard drive holding up? Don’t scratch your disk! Okay, pal, you just keep running in circles, I’ll be over here surfing the web. Yeah, who’s the ‘funnest iPod ever’ now? Yeah, you just keep walking.”</p>
+<p>“But like I was saying, we Apple products are designed to be the best of the best, and when you’re constantly the runner up, it can be hard on your self esteem,” Touch continued. “I’m not proud of this, but when I went Second Generation and got my 32GB option, I kinda let iPhone know about it, you know? I tried to be nice to the Nanos, but it felt good to put iPhone in his place.” Here Touch broke off, seeing an iPod Classic walk by. “Hey, Classic! How’s your dinosaur hard drive holding up? Don’t scratch your disk! Okay, pal, you just keep running in circles, I’ll be over here surfing the web. Yeah, who’s the ‘funnest iPod ever’ now? Yeah, you just keep walking.” </p>
 
 <p>“We’re all very proud of how far mini has come,” said iMac. “but he has kind of gotten above himself with this new upgrade. I mean, he keeps digging at Pro, asking him ‘how many watts he’s wasted today’ and ‘if he’s made any motion pictures yet’, and basically just attacking him in all his most sensitive areas. We all hope it’s just a phase, and that he’ll grow out of it and start acting like an Apple product again.”</p>
 
-<p>Since we were getting strange looks talking to computers, we decided to talk to a real human being. Unfortunately all we could find was an Apple Store employee.<a href="#footnote_0_368" title="Rim Shot">1</a></p>
+<p>Since we were getting strange looks talking to computers, we decided to talk to a real human being. Unfortunately all we could find was an Apple Store employee.<a href="#footnote_0_368" title="Rim Shot">1</a> </p>
 
 <p>“We think that mini has had a pretty bad case of “Napoleon Syndrome” for a while. He’s small, but quite powerful, and threatened by the bigger and more powerful macs around him. But this new speed upgrade has made it much worse. I don’t know why he picks on Pro so much. I mean, it’s 8 cores to 2, man. Game over. But he just can’t let it rest. Still, it’s better than when he was next to iMac.”</p>
 
@@ -174,8 +174,8 @@
 <p>And so, creeped out and a little disappointed, we left the Apple store, without spending money.<a href="#footnote_1_368" title="which creeped out and disappointed the Apple store staff.">2</a> Will the mini grow up and take his place in society? Only time will tell.</p>
 
 <ol>
-<li>Rim Shot [<a href="#identifier_0_368">↩</a>]</li>
-<li>which creeped out and disappointed the Apple store staff. [<a href="#identifier_1_368">↩</a>]</li>
+  <li>Rim Shot [<a href="#identifier_0_368">↩</a>]</li>
+  <li>which creeped out and disappointed the Apple store staff. [<a href="#identifier_1_368">↩</a>]</li>
 </ol>
 
 ]]></content>

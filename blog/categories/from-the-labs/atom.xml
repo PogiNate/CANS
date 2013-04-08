@@ -4,7 +4,7 @@
   <title><![CDATA[Category: From The Labs | Crazy Apple News Site]]></title>
   <link href="http://PogiNate.github.com/CANS/blog/categories/from-the-labs/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/CANS/"/>
-  <updated>2013-04-05T13:09:11-06:00</updated>
+  <updated>2013-04-08T15:53:55-06:00</updated>
   <id>http://PogiNate.github.com/CANS/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,11 +18,11 @@
     <link href="http://PogiNate.github.com/CANS/2011/12/channeling-douglas-adams/"/>
     <updated>2011-12-09T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/12/channeling-douglas-adams</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>In <a href="http://en.wikipedia.org/wiki/Last_chance_to_see">Last Chance To See</a> Douglas Adams talks about writing a program that is very sexy and has pull down menus and everything, and it’s entire purpose is to figure out the volume of the nests made by a certain kind of bird. In an article called “<a href="http://www.douglasadams.com/dna/980707-00-a.html">Frank The Vandal</a>” he writes about a desire to be able to take just the parts of programs you want and paste them into a workflow so that you can do whatever it is you want to do without using six different programs. This is a mindset that resonates with me. If I can spend a few happy minutes<a href="#footnote_0_1144" title="or hours">1</a> writing pointless software to solve a problem now instead of seconds taking care of it manually once a week I will definitely go for the pointless software. It was in this vein that I tackled the following</p>
 
-<h3>Extremely Small Problem:</h3>
+<h3 id="extremely-small-problem">Extremely Small Problem:</h3>
 
 <p>I do a lot of what <a href="http://en.wikipedia.org/wiki/Natalie_Goldberg">Natalie Goldberg</a> calls “<a href="http://en.wikipedia.org/wiki/Free_writing">practice writing</a>”. which is where you just block out some time and keep writing for that entire time. This writing can be directed, or not, but the goal is to keep moving forward, to keep putting words on the page, or, in my case, into the text document. This isn’t “real” writing that you plan to put in front of other people some day, this is just exercise, to keep those writing muscles in shape.</p>
 
@@ -38,22 +38,23 @@
 
 <p>After a little bit of thinking and a little more tinkering, I came up with the following</p>
 
-<h3>Gloriously Baroque Solution:</h3>
+<h3 id="gloriously-baroque-solution">Gloriously Baroque Solution:</h3>
 
 <p>The moving parts involved here are (in order):</p>
 
 <ol>
-<li><a href="http://db.tt/WW19iU5">Dropbox</a></li>
-<li>Hazel</li>
-<li><a href="http://www.apple.com/macosx/apps/all.html#automator">Automator</a></li>
-<li><a href="http://www.microsoft.com/mac/word">Word 2011 for Mac</a></li>
-<li>Hazel again</li>
+  <li><a href="http://db.tt/WW19iU5">Dropbox</a></li>
+  <li>Hazel</li>
+  <li><a href="http://www.apple.com/macosx/apps/all.html#automator">Automator</a></li>
+  <li><a href="http://www.microsoft.com/mac/word">Word 2011 for Mac</a></li>
+  <li>Hazel again</li>
 </ol>
-
 
 <p>Here’s how it goes:</p>
 
-<p>I write my useless document, and save it to a particular folder in my Dropbox. It’s instantly beamed to all the other computers that are connected to my Dropbox account.<a href="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met"><img src="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met" alt="Otto: the Automator icon" /></a></p>
+<p>I write my useless document, and save it to a particular folder in my Dropbox. It’s instantly beamed to all the other computers that are connected to my Dropbox account.<a href="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met"><img src="#footnote_4_1144" alt="Otto: the Automator icon" title="Hazel’s name for a set of actions that happen when a certain condition is met" /></a></p>
+
+<p>[]: http://crazyapplenews.com/wp-content/uploads/2011/12/Otto.jpg</p>
 
 <p>On my mac, Hazel is monitoring that folder, and sees a new rtf file show up. It starts a rule<a href="#footnote_4_1144" title="Hazel’s name for a set of actions that happen when a certain condition is met">5</a> that renames the file and moves it into my “compost” folder. But the file is still an rtf instead of a txt file! Not to worry, this is where it calls Automator.</p>
 
@@ -61,19 +62,19 @@
 
 <p>This all works perfectly, much to my surprise, and (even more surprisingly) usually takes less than five seconds to run, even with all the Word opening and closing stuff. And since it’s happening while I’m not at my mac it’s effectively happening instantly.</p>
 
-<h3>Conclusion</h3>
+<h3 id="conclusion">Conclusion</h3>
 
 <p>Well, there isn’t one, really. All in all this took me about 20 minutes to set up, and will save me a few seconds of work a few times a week. But it’s work that I’m unlikely to do by myself, which would compromise the integrity of my compost folder. So, here’s to creative solutions to minuscule problems!</p>
 
 <p>Note: This article was cross-posted here and at <a href="http://coals2newcastle.com">Coals[2]Newcastle</a>.</p>
 
 <ol>
-<li>or hours [<a href="#identifier_0_1144">↩</a>]</li>
-<li>it most closely matches the functionality of <a href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a>, which is what I use on my mac [<a href="#identifier_1_1144">↩</a>]</li>
-<li>which, you’ll remember, are pretty much worthless [<a href="#identifier_2_1144">↩</a>]</li>
-<li>which may nor may not ever happen, but that’s beside the point [<a href="#identifier_3_1144">↩</a>]</li>
-<li>Hazel’s name for a set of actions that happen when a certain condition is met [<a href="#identifier_4_1144">↩</a>]</li>
-<li>and then closes Word. I don’t know why this is a separate step, but it is. [<a href="#identifier_5_1144">↩</a>]</li>
+  <li>or hours [<a href="#identifier_0_1144">↩</a>]</li>
+  <li>it most closely matches the functionality of <a href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a>, which is what I use on my mac [<a href="#identifier_1_1144">↩</a>]</li>
+  <li>which, you’ll remember, are pretty much worthless [<a href="#identifier_2_1144">↩</a>]</li>
+  <li>which may nor may not ever happen, but that’s beside the point [<a href="#identifier_3_1144">↩</a>]</li>
+  <li>Hazel’s name for a set of actions that happen when a certain condition is met [<a href="#identifier_4_1144">↩</a>]</li>
+  <li>and then closes Word. I don’t know why this is a separate step, but it is. [<a href="#identifier_5_1144">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -84,7 +85,7 @@
     <link href="http://PogiNate.github.com/CANS/2008/07/from-the-labs-no-fonts/"/>
     <updated>2008-07-02T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2008/07/from-the-labs-no-fonts</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Our lab tests today have conclusively revealed the reason that Snow Leopard’s Font Book application is so small.</p>
 
@@ -105,9 +106,11 @@
     <link href="http://PogiNate.github.com/CANS/2008/05/parallels-fusion-evil/"/>
     <updated>2008-05-20T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2008/05/parallels-fusion-evil</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p><a href="http://www.parallels.com/"><img src="http://www.parallels.com/" alt="Super-scientific graph of evil" /></a>The CANS labs have reached a shocking conclusion that may affect the outcome of the virtualization wars on the Mac.  </p>
+
+<p>[]: http://crazyapplenews.com/wp-content/uploads/2008/05/evilbars.png</p>
 
 <p>According to our research, <a href="http://www.parallels.com/">Parallels</a> is 28% more effective than <a href="http://www.vmware.com/mac">VMWare Fusion</a> at keeping the stench of Windows evil out of your Mac OS.  </p>
 

@@ -94,7 +94,7 @@
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
 <p>I mean, if the best Moltz could do is a <a href="http://www.crazyapplerumors.com/?p=1041">comment about people’s Steve Jobs watching</a>, then what do you really expect from a hack like me?  WWDC conference was boring.  ”Blah blah blah, we’re changing the world, bloo de bloo, iPhones are cheaper, MobileMe blah blah blah.”  Come on! Where’s the news? Where’s the world-shaping vision, like, say, a new mobile computing API, or new OS? I just don’t have anything to say.</p>
 
@@ -102,7 +102,7 @@
 
 <p> </p>
 
-<h3>Windows ME and Mobile Me: The Untold Story</h3>
+<h3 id="windows-me-and-mobile-me-the-untold-story">Windows ME and Mobile Me: The Untold Story</h3>
 
 <p>Apple’s announcement of<a href="http://www.apple.com/mobileme/"> Mobile Me</a> on Monday was seen by many as a step towards the future, but for Mobile Me itself, it was a return to the past.</p>
 
@@ -194,6 +194,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -205,17 +213,27 @@
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

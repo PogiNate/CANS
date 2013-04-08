@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programmer Jokes | Crazy Apple News Site]]></title>
   <link href="http://PogiNate.github.com/CANS/blog/categories/programmer-jokes/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/CANS/"/>
-  <updated>2013-04-05T13:09:11-06:00</updated>
+  <updated>2013-04-08T15:53:55-06:00</updated>
   <id>http://PogiNate.github.com/CANS/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,10 +18,10 @@
     <link href="http://PogiNate.github.com/CANS/2008/05/unix-one-liners/"/>
     <updated>2008-05-24T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2008/05/unix-one-liners</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>Unix is user friendly…its just selective about who its friends are.<br/>
-To err is human…to really foul up requires the root password.<br/>
+<p>Unix is user friendly…its just selective about who its friends are.<br />
+To err is human…to really foul up requires the root password.<br />
 Perl, the only language that looks the same before and after RSA encryption</p>
 ]]></content>
   </entry>
@@ -31,9 +31,9 @@ Perl, the only language that looks the same before and after RSA encryption</p>
     <link href="http://PogiNate.github.com/CANS/2008/05/physics-joke/"/>
     <updated>2008-05-24T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2008/05/physics-joke</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>Heisenberg is speeding down the street and he gets pulled over by a cop.<br/>
+<p>Heisenberg is speeding down the street and he gets pulled over by a cop.<br />
 The officer walks up to the window and says, “Do you know how fast you were going?” To which he replies, “No, but I know exactly where I am!”</p>
 ]]></content>
   </entry>
@@ -43,10 +43,10 @@ The officer walks up to the window and says, “Do you know how fast you were go
     <link href="http://PogiNate.github.com/CANS/2008/05/c-programmer-joke/"/>
     <updated>2008-05-23T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2008/05/c-programmer-joke</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>First Android: Did you hear about the C programmer whose boxers were too loose?<br/>
-Second Android: He kept trying to use</p>
+<p>First Android: Did you hear about the C programmer whose boxers were too loose?<br />
+Second Android: He kept trying to use </p>
 ]]></content>
   </entry>
   
@@ -55,12 +55,12 @@ Second Android: He kept trying to use</p>
     <link href="http://PogiNate.github.com/CANS/2008/05/basic-programmer-joke/"/>
     <updated>2008-05-23T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2008/05/basic-programmer-joke</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>010000100110000101110011011010010110001100100000010100000111001001101111011001110111001001100001011011010110110101100101011100100111001100100000011001000110111101101110001001110111010000100000011001000110100101100101001011000010000001110100011010000110010101111001001000000110101001110101011100110111010000100000010001110100111101010011010101010100001000100000011000010110111001100100001000000110111001100101011101100110010101110010001000000101001001000101010101000101010101010010010011100010111000100000010000010110110001110011011011110010110000100000010000100110000101110011011010010110001100100000011100110111010101100011011010110111001100101110<a href="#footnote_0_11" title="For you humans, there is a converter here.">1</a></p>
+<p>010000100110000101110011011010010110001100100000010100000111001001101111011001110111001001100001011011010110110101100101011100100111001100100000011001000110111101101110001001110111010000100000011001000110100101100101001011000010000001110100011010000110010101111001001000000110101001110101011100110111010000100000010001110100111101010011010101010100001000100000011000010110111001100100001000000110111001100101011101100110010101110010001000000101001001000101010101000101010101010010010011100010111000100000010000010110110001110011011011110010110000100000010000100110000101110011011010010110001100100000011100110111010101100011011010110111001100101110<a href="#footnote_0_11" title="For you humans, there is a converter here.">1</a> </p>
 
 <ol>
-<li>For you humans, there is a converter <a href="http://www.roubaixinteractive.com/PlayGround/Binary_Conversion/Binary_To_Text.asp">here</a>. [<a href="#identifier_0_11">↩</a>]</li>
+  <li>For you humans, there is a converter <a href="http://www.roubaixinteractive.com/PlayGround/Binary_Conversion/Binary_To_Text.asp">here</a>. [<a href="#identifier_0_11">↩</a>]</li>
 </ol>
 
 ]]></content>

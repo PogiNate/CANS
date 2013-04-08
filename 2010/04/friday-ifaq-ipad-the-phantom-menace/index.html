@@ -94,7 +94,7 @@
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
 <p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy Apple user, get more out of your Crazy Apple products.</p>
 
@@ -114,7 +114,7 @@
 
 <p>Q: Why don’t you have a review unit? I mean, Pogue does, that one<a href="http://ihnatko.com/"> really hard to spell</a> guy does, Gruber probably has four, heck, even <a href="http://www.time.com/time/business/article/0,8599,1976935,00.html">Stephen Fry</a> got one. But they just skipped right over you, huh?</p>
 
-<p>A: I don’t know what you’re talking about! I’m using that iPad all day every day!</p>
+<p>A: I don’t know what you’re talking about! I’m using that iPad all day every day! </p>
 
 <p>Q: I mean, Pogue, of course. And Mossberg, sure. Even Gruber’s a given, because he’d whine really really loud if they didn’t give him one to play with. But then there’s you. Left out. In the cold.</p>
 
@@ -126,15 +126,15 @@
 
 <p>Q: All the “normal people” with $500-$800 to chuck at a new toy.</p>
 
-<p>A: Dude, these are <em>Apple </em>people.</p>
+<p>A: Dude, these are *Apple *people. </p>
 
-<p>Q: Right, right. Sorry. Forgot there for a second.</p>
+<p>Q: Right, right. Sorry. Forgot there for a second. </p>
 
 <p>A: Well, you’re new. It’s forgivable. This time.</p>
 
 <ol>
-<li>Except for the features that Ive thinks would have detracted from the experience. [<a href="#identifier_0_768">↩</a>]</li>
-<li>No, really, I have. Every year. [<a href="#identifier_1_768">↩</a>]</li>
+  <li>Except for the features that Ive thinks would have detracted from the experience. [<a href="#identifier_0_768">↩</a>]</li>
+  <li>No, really, I have. Every year. [<a href="#identifier_1_768">↩</a>]</li>
 </ol>
 
 </div>
@@ -200,6 +200,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -211,17 +219,27 @@
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

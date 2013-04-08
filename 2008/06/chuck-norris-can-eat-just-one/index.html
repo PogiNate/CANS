@@ -94,7 +94,7 @@
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
 <p>While the “<a href="http://www.chucknorrisfacts.com/">Chuck Norris Fact</a>s” thing is generally recognized as over, new research suggests that Mac users got away from the craze earlier than Windows users.</p>
 
@@ -112,7 +112,9 @@
 
 <p>Apple was contacted for a comment, but all they would say is that their favorite fact is:</p>
 
-<blockquote><p>Chuck Norris has the greatest poker face of all time. He won the 1983 World Series of Poker, despite holding only a joker, a Get Out of Jail Free Monopoly card, a 2 of clubs, 7 of spades and a green 4 from UNO.</p></blockquote>
+<blockquote>
+  <p>Chuck Norris has the greatest poker face of all time. He won the 1983 World Series of Poker, despite holding only a joker, a Get Out of Jail Free Monopoly card, a 2 of clubs, 7 of spades and a green 4 from UNO.</p>
+</blockquote>
 </div>
 
 
@@ -176,6 +178,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -187,17 +197,27 @@
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

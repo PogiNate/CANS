@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Friday iFAQ | Crazy Apple News Site]]></title>
   <link href="http://PogiNate.github.com/CANS/blog/categories/friday-ifaq/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/CANS/"/>
-  <updated>2013-04-05T13:09:11-06:00</updated>
+  <updated>2013-04-08T15:53:55-06:00</updated>
   <id>http://PogiNate.github.com/CANS/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,7 +18,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/04/friday-ifaq-bowtie/"/>
     <updated>2011-04-22T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/04/friday-ifaq-bowtie</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy <a href="http://apple.com">Apple</a> user, get more out of your Crazy Apple products.</p>
 
@@ -32,7 +32,7 @@
 
 <p>A: Sure you do. You could make it look like a brain, and the buttons were made out of wrinkles on the brain’s surface, or you could have it look like a big piano with the control buttons outlined on the keys, or whatever.</p>
 
-<p>Q: Nope!</p>
+<p>Q: Nope! </p>
 
 <p>A: Wow, did you miss out. All the music players did it. Windows Media Player, Winamp, RealPlayer…</p>
 
@@ -50,18 +50,20 @@
 
 <p>Q: So there really isn’t a point.</p>
 
-<p>A: The point is to have fun! Come on, it’s spring! The sky is bright, life is good, maybe you should loosen up a bit too! Sometimes things can just be fun. I’m using it to listen to the Tron: Legacy soundtrack right now, just because I can!</p>
+<p>A: The point is to have fun! Come on, it’s spring! The sky is bright, life is good, maybe you should loosen up a bit too! Sometimes things can just be fun. I’m using it to listen to the Tron: Legacy soundtrack right now, just because I can! </p>
 
 <p>Q: Hmmm, not sure I can lower my standards of “fun” quite that far.</p>
 
-<p>A: *sigh*. Okay, Mr. Boring Pants. Go watch your news programs and listen to your collection of the 100 greatest renditions of <em>4'.33"</em> I’ll catch you later.</p>
+<p>A: *sigh*. Okay, Mr. Boring Pants. Go watch your news programs and listen to your collection of the 100 greatest renditions of <em>4’.33”</em> I’ll catch you later.</p>
 
-<p>Q: What’s wrong with <em><a href="http://en.wikipedia.org/wiki/4'33%22">4'33"</a></em>?</p>
+<p>Q: What’s wrong with <em>[4’33”][3]</em>? </p>
+
+<p>[3]: http://en.wikipedia.org/wiki/4’33”</p>
 
 <p>A: Oh, it’s nothing.<a href="#footnote_0_1119" title="I couldn’t resist">1</a></p>
 
 <ol>
-<li>I couldn’t resist [<a href="#identifier_0_1119">↩</a>]</li>
+  <li>I couldn’t resist [<a href="#identifier_0_1119">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -72,9 +74,9 @@
     <link href="http://PogiNate.github.com/CANS/2011/04/friday-ifaq-twitter-for-mac/"/>
     <updated>2011-04-08T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/04/friday-ifaq-twitter-for-mac</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, get more out of your Crazy Apple products.</p>
+<p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, get more out of your Crazy Apple products. </p>
 
 <p>This week, it’s all about Twitter’s creatively named Twitter client: Twitter for Mac <a href="http://twitter.com/#!/search/#stupidname">#stupidname</a> <a href="http://twitter.com/#!/search/Ilikehashtags">#Ilikehashtags</a></p>
 
@@ -82,7 +84,7 @@
 
 <p><strong>Q</strong>: Ah, so we’re doing that, are we? all our questions and answers have to be less than 140 characters?</p>
 
-<p><strong>A</strong>: Yep! It’ll help you stop whinging( on about stupid crap. <a href="http://twitter.com/#!/search/#justsayin">#justsayin</a></p>
+<p><strong>A</strong>: Yep! It’ll help you stop whinging( on about stupid crap. <a href="http://twitter.com/#!/search/#justsayin">#justsayin</a> </p>
 
 <p><strong>Q</strong>: So the point is to get us all to distill the essence of what we want to say, to refine our thinking and use every letter effectively?</p>
 
@@ -100,19 +102,20 @@
 
 <p><strong>A</strong>: Well, for one thing, the app wastes far less screen space with stupid things like <a href="http://twitter.com/#!/search/#trendingtopics">#trendingtopics</a>. Seriously, I hate those.</p>
 
-<p><strong>Q</strong>: And yet you linked to a discussion about them. Odd.</p>
+<p><strong>Q</strong>: And yet you linked to a discussion about them. Odd. </p>
 
 <p><strong>A</strong>: Yeah, sorry about that. It gets to be a habit after a while. <a href="http://twitter.com/#!/search/#Ijustcannotstopmyself">#Ijustcannotstopmyself</a></p>
 
 <p><strong>Q</strong>: Yeah, I’m still not sold. Not just on the client either. I don’t see a real point for Twitter in general.</p>
 
-<p><strong>A</strong>: Well, there’s not much I can say to change your mind. It’s all free, so you can try it out, see if you like it.</p>
+<p><strong>A</strong>: Well, there’s not much I can say to change your mind. It’s all free, so you can try it out, see if you like it. </p>
 
 <p><strong>A</strong>: The name is very appropriate: there’s a lot of tweets, like birds in a tree, but they’re all really short and not a big deal. <a href="http://twitter.com/#!/search/#nobigdeal">#nobigdeal</a></p>
 
 <p><strong>Q</strong>: Almost thou convincest me to become a…what exactly? Tweeter? Twit? Bird?</p>
 
 <p>A: Yeah, nobody’s really sure. <a href="http://twitter.com/#!/search/#ohwell">#ohwell</a>.</p>
+
 ]]></content>
   </entry>
   
@@ -121,7 +124,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/03/friday-ifaq-hordes-of-orcs-2/"/>
     <updated>2011-03-11T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/03/friday-ifaq-hordes-of-orcs-2</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy <a href="http://apple.com">Apple</a> user, get more out of your Crazy Apple products.</p>
 
@@ -139,7 +142,7 @@
 
 <p>Q: Family. Really.</p>
 
-<p>A: Well, all us orcs instances of same class. It like family!</p>
+<p>A: Well, all us orcs instances of same class. It like family! </p>
 
 <p>Q: So, asking you about the new and improved gameplay feels a bit heartless then?</p>
 
@@ -180,7 +183,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/02/friday-ifaq-thunderbolt/"/>
     <updated>2011-02-25T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/02/friday-ifaq-thunderbolt</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy Apple user, get more out of your Crazy Apple products.</p>
 
@@ -220,7 +223,7 @@
 
 <p>A: Hey, now, you can’t call DisplayPort a failed connector yet! It’s still in the works! Dell is using it! Lots of people are using it!</p>
 
-<p>Q: To connect to Apple Cinema Displays.</p>
+<p>Q: To connect to Apple Cinema Displays. </p>
 
 <p>A: Right. No! To connect to all kinds of high end monitors. And besides, what about all the changes that Apple has made? What about the death of the Floppy drive? or the death of the stylus?</p>
 
@@ -251,9 +254,9 @@
     <link href="http://PogiNate.github.com/CANS/2011/02/friday-ifaq-cinch/"/>
     <updated>2011-02-04T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/02/friday-ifaq-cinch</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy Apple user, get more out of your Crazy Apple products.</p>
+<p>Every Friday we publish a list of inFrequently Answered Questions and answers to help you, the Crazy Apple user, get more out of your Crazy Apple products. </p>
 
 <p>Today we throw some fuel on the eternal flamewar and review Cinch, the program that Apple should have thought of first.</p>
 
@@ -261,7 +264,7 @@
 
 <p>A: Go on.</p>
 
-<p>Q: They’re not bad, you understand. That is, they mean well, you see.</p>
+<p>Q: They’re not bad, you understand. That is, they mean well, you see. </p>
 
 <p>A: I understand.</p>
 

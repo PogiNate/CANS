@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Current Events | Crazy Apple News Site]]></title>
   <link href="http://PogiNate.github.com/CANS/blog/categories/current-events/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/CANS/"/>
-  <updated>2013-04-05T13:09:11-06:00</updated>
+  <updated>2013-04-08T15:53:55-06:00</updated>
   <id>http://PogiNate.github.com/CANS/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,15 +18,15 @@
     <link href="http://PogiNate.github.com/CANS/2011/04/quicksilver-rides-againagain/"/>
     <updated>2011-04-21T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/04/quicksilver-rides-againagain</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>Fans of really slick interactions probably use LaunchBar will be excited to know that <a href="http://www.blacktree.com/">Quicksilver</a>, the famous keyboard-based productivity app, is <a href="http://qsapp.com/">rising</a> once again from the grave to speed your interactions with all them files on your hard drive.<a href="#footnote_0_1118" title="We would like to point out that this would be an easy place to comment about the file the iPhone uses to follow you around all day, but we’ll refrain.">1</a></p>
+<p>Fans of really slick interactions probably use LaunchBar will be excited to know that <a href="http://www.blacktree.com/">Quicksilver</a>, the famous keyboard-based productivity app, is <a href="http://qsapp.com/">rising</a> once again from the grave to speed your interactions with all them files on your hard drive.<a href="#footnote_0_1118" title="We would like to point out that this would be an easy place to comment about the file the iPhone uses to follow you around all day, but we’ll refrain.">1</a> </p>
 
-<p>Open Source wonks will tell you that this is the value of Open Source, that a project can live on beyond it’s original owner losing interest.<a href="#footnote_1_1118" title="Which reminds us, we haven’t heard from ZRMS in a while">2</a> Guardians of Commercial software would gently point out that the whole point of paying for software is to ensure that you don’t have to wait for the developer to go on spring break to get new features. Maybe someday we’ll do a fireside chat ‘bout that, but for now, feel free to go get a new version of QS if you’re not already using LaunchBar and start doing really zippy things like pasting text into a file without opening it or whatever. </p>
+<p>Open Source wonks will tell you that this is the value of Open Source, that a project can live on beyond it’s original owner losing interest.<a href="#footnote_1_1118" title="Which reminds us, we haven’t heard from ZRMS in a while">2</a> Guardians of Commercial software would gently point out that the whole point of paying for software is to ensure that you don’t have to wait for the developer to go on spring break to get new features. Maybe someday we’ll do a fireside chat ‘bout that, but for now, feel free to go get a new version of QS if you’re not already using LaunchBar and start doing really zippy things like pasting text into a file without opening it or whatever.  </p>
 
 <ol>
-<li>We would like to point out that this would be an easy place to comment about the file the <a href="http://crazyapplerumors.com/2011/04/21/apple-provides-fabulous-new-feature-free-of-charge/">iPhone uses to follow you around all day</a>, but we’ll refrain. [<a href="#identifier_0_1118">↩</a>]</li>
-<li>Which reminds us, we haven’t heard from ZRMS in a while [<a href="#identifier_1_1118">↩</a>]</li>
+  <li>We would like to point out that this would be an easy place to comment about the file the <a href="http://crazyapplerumors.com/2011/04/21/apple-provides-fabulous-new-feature-free-of-charge/">iPhone uses to follow you around all day</a>, but we’ll refrain. [<a href="#identifier_0_1118">↩</a>]</li>
+  <li>Which reminds us, we haven’t heard from ZRMS in a while [<a href="#identifier_1_1118">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -37,7 +37,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/04/new-study-shows-less-than-half-of-apple-employees-use-ping/"/>
     <updated>2011-04-06T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/04/new-study-shows-less-than-half-of-apple-employees-use-ping</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Completely non-shocking news from Cupertino today as it’s revealed that only around 40% of <a href="http://apple.com">Apple</a> Employees actually <em>use</em> Apple’s new <a href="http://www.apple.com/itunes/ping/">Ping</a> service.</p>
 
@@ -54,7 +54,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/03/apple-to-declare-open-season-on-full-screen-writing-software/"/>
     <updated>2011-03-22T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/03/apple-to-declare-open-season-on-full-screen-writing-software</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Cupertino <a href="http://apple.com">Apple</a> announced today that they are “concerned” that the number of Full-Screen Writing Programs may soon be more than the Apple Ecosystem can handle, and that they will be declaring an “Open Season” on the little blighters.</p>
 
@@ -67,7 +67,7 @@
 <p>Tamaddon mentioned that Scott Forstall would be monitoring this program closely, and if it proved successful would be offering a similar system for “all those dang iOS ToDo list apps.”</p>
 
 <ol>
-<li>Apparently Dr. Weisman also likes repeating himself. [<a href="#identifier_0_1111">↩</a>]</li>
+  <li>Apparently Dr. Weisman also likes repeating himself. [<a href="#identifier_0_1111">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -78,89 +78,89 @@
     <link href="http://PogiNate.github.com/CANS/2011/03/delayposting-about-the-event-of-awesomeness/"/>
     <updated>2011-03-02T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/03/delayposting-about-the-event-of-awesomeness</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p><strong>10:00- </strong>Steve is on stage! But not made of metal, which is disappointing.</p>
+<p>**10:00- **Steve is on stage! But not made of metal, which is disappointing.</p>
 
 <p><strong>10:05-</strong> iPads are selling like really expensive hotcakes. Everyone loves them.</p>
 
-<p><strong>10:15- </strong>Doctors can show you your x-rays without you getting out of bed with their iPad. “This is where we think I left my watch,” says Dr. Johnson.</p>
+<p>**10:15- **Doctors can show you your x-rays without you getting out of bed with their iPad. “This is where we think I left my watch,” says Dr. Johnson.</p>
 
-<p><strong>10:16- </strong>Kids love iPads too! Who knew?</p>
+<p>**10:16- **Kids love iPads too! Who knew?</p>
 
-<p><strong>10:17- </strong>The iPad…loves you. It loves children. It’s basically an angel of love and light and love.</p>
+<p>**10:17- **The iPad…loves you. It loves children. It’s basically an angel of love and light and love.</p>
 
 <p><strong>10:18-</strong> iPad 2 gets announced today. Say goodbye to the copycats.</p>
 
-<p><strong>10:19- </strong>New Processor! Faster! Dual core! Did we mention faster? It’s faster. That’s why it’s called “A5”.</p>
+<p>**10:19- **New Processor! Faster! Dual core! Did we mention faster? It’s faster. That’s why it’s called “A5”.</p>
 
 <p><strong>10:20-</strong> Cameras! Gyroscopes! Miracles!</p>
 
-<p><strong>10:21- </strong>It’s thinner too. Faster! Thinner! Cameras!</p>
+<p>**10:21- **It’s thinner too. Faster! Thinner! Cameras!</p>
 
-<p><strong>10:22- </strong>White iPad. ugly.</p>
+<p>**10:22- **White iPad. ugly.</p>
 
-<p><strong>10:23- </strong>Verision and AT&amp;T. I have nothing to say about that.</p>
+<p>**10:23- **Verision and AT&amp;T. I have nothing to say about that.</p>
 
-<p><strong>10:24- </strong>The white one is still really ugly.</p>
+<p>**10:24- **The white one is still really ugly.</p>
 
-<p><strong>10:25- </strong>The prices, they no move. No come down, but no go up. So there you go.</p>
+<p>**10:25- **The prices, they no move. No come down, but no go up. So there you go.</p>
 
-<p><strong>10:25- </strong>They ship on March 11th. Take that, all you other tablets that haven’t shipped yet.</p>
+<p>**10:25- **They ship on March 11th. Take that, all you other tablets that haven’t shipped yet.</p>
 
-<p><strong>10:27- </strong>For $40 you can have a weird port splitter thing. Charge and use all at once! You know you want it.</p>
+<p>**10:27- **For $40 you can have a weird port splitter thing. Charge and use all at once! You know you want it.</p>
 
-<p><strong>10:30- </strong>Weird new magno-roll-up cover thingy. Looks…cool? if you like the color light blue.</p>
+<p>**10:30- **Weird new magno-roll-up cover thingy. Looks…cool? if you like the color light blue.</p>
 
-<p><strong>10:31- </strong>A RAINBOW of colors! A rainbow that includes three shades of what amounts to “black or gray” And executive leather covers. For the discerning user.</p>
+<p>**10:31- **A RAINBOW of colors! A rainbow that includes three shades of what amounts to “black or gray” And executive leather covers. For the discerning user.</p>
 
 <p><strong>10:32-</strong> Scott Forestall is out, and is feeling intense about iOS 4.3</p>
 
-<p><strong>10:35- </strong>iPad switch does what YOU want, baby. It’s your switch. As long as you want it to mute or lock rotation.</p>
+<p>**10:35- **iPad switch does what YOU want, baby. It’s your switch. As long as you want it to mute or lock rotation.</p>
 
-<p><strong>10:36- </strong>iPhone 4 is now a hotspot.</p>
+<p>**10:36- **iPhone 4 is now a hotspot.</p>
 
-<p><strong>10:37- </strong>Photobooth demos. I’m still not over the original OSX photobooth demos. Please stop.</p>
+<p>**10:37- **Photobooth demos. I’m still not over the original OSX photobooth demos. Please stop.</p>
 
 <p><strong>10:39-</strong> FaceTime. Yep. Yep.</p>
 
-<p><strong>10:41- </strong>Big stuff coming out on March 11th.</p>
+<p>**10:41- **Big stuff coming out on March 11th.</p>
 
-<p><strong>10:42- </strong>iMovie for iPad. All the Pixar engineers who have been working with iMovie for iPhone breathe a sigh of relief. Finally! a slightly larger screen!</p>
+<p>**10:42- **iMovie for iPad. All the Pixar engineers who have been working with iMovie for iPhone breathe a sigh of relief. Finally! a slightly larger screen!</p>
 
 <p><strong>10:44-</strong> iMovie for iPad is…a lot like the OSX version. But it’s got a cool marquee thing on the home screen, so that’s cool, right?</p>
 
 <p><strong>10:48-</strong> My limited patience for iMovie demos is coming to an end. Seriously, guys. Move on.</p>
 
-<p><strong>10:49- </strong>Steve just revealed how old he is “It blows my mind, this stuff.” He may have well added “What with the tapping and the rotating and the looking and the making movies? I don’t know.”</p>
+<p>**10:49- **Steve just revealed how old he is “It blows my mind, this stuff.” He may have well added “What with the tapping and the rotating and the looking and the making movies? I don’t know.”</p>
 
-<p><strong>10:50- </strong>GarageBand for iPad. This one make sense. But still, the demo better be short.</p>
+<p>**10:50- **GarageBand for iPad. This one make sense. But still, the demo better be short.</p>
 
-<p><strong>10:52- </strong>Moving on. Okay, thanks for the GarageBand demo. Moving on now. Please?</p>
+<p>**10:52- **Moving on. Okay, thanks for the GarageBand demo. Moving on now. Please?</p>
 
 <p><strong>10:53-</strong> “This is a window into a much larger piano”. I’m pretty sure that’s not how that works.</p>
 
-<p><strong>10:55- </strong>Apparently the rest of the demo is all GarageBand, all the time.</p>
+<p>**10:55- **Apparently the rest of the demo is all GarageBand, all the time.</p>
 
-<p><strong>10:56- </strong>Drums. DO NOT USE DRUMSTICKS! Use your fingers. Or our new iSticks.</p>
+<p>**10:56- **Drums. DO NOT USE DRUMSTICKS! Use your fingers. Or our new iSticks.</p>
 
 <p><strong>10:57-</strong> Smart guitar: the guitar is smart, so you don’t have to be.</p>
 
-<p><strong>11:00- </strong>Okay, I’m going to just be over there somewhere until they’re done talking about GarageBand. Talk amongst yourselves.</p>
+<p>**11:00- **Okay, I’m going to just be over there somewhere until they’re done talking about GarageBand. Talk amongst yourselves.</p>
 
-<p><strong>11:03- </strong>Garage band is finally done. That was painful.</p>
+<p>**11:03- **Garage band is finally done. That was painful.</p>
 
-<p><strong>11:05- </strong>“Now we made a video that I’d love to show you.” Did they make it in iMovie on an iPad 2?</p>
+<p>**11:05- **“Now we made a video that I’d love to show you.” Did they make it in iMovie on an iPad 2?</p>
 
-<p><strong>11:06- </strong>Jony Ive likes the iPad 2 A. LOT.</p>
+<p>**11:06- **Jony Ive likes the iPad 2 A. LOT.</p>
 
 <p><strong>11:09-</strong> Kinda bummed they didn’t make iWeb for the iPad.</p>
 
-<p><strong>11:11- </strong>Steve is on stage, wrapping things up…hopefully. Unless he’s got some cool news about something else.</p>
+<p>**11:11- **Steve is on stage, wrapping things up…hopefully. Unless he’s got some cool news about something else.</p>
 
-<p><strong>11:12- </strong>Steve is giving a speech about DNA and technology and stuff. It sounds kinda mystical.</p>
+<p>**11:12- **Steve is giving a speech about DNA and technology and stuff. It sounds kinda mystical.</p>
 
-<p><strong>11:13- </strong>And that’s all folks! Thanks for joining us in joining others…or something. And remember, if you enjoyed this post, why not buy your editor an iPad 2? It’s the classy thing to do.</p>
+<p>**11:13- **And that’s all folks! Thanks for joining us in joining others…or something. And remember, if you enjoyed this post, why not buy your editor an iPad 2? It’s the classy thing to do.</p>
 ]]></content>
   </entry>
   
@@ -169,7 +169,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/01/sleazy-pundits-craft-insincere-well-wishes/"/>
     <updated>2011-01-18T00:00:00-07:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/01/sleazy-pundits-craft-insincere-well-wishes</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>The news that Steve Jobs is again taking medical leave has opened the door for anti-Apple pundits to try to sound sincere in their lack of vitriol towards the man who essentially started the personal computing revolution.</p>
 
@@ -178,7 +178,7 @@
 <p>We here at CANS may occasionally make fun of Steve Jobs, but we hope it’s still obvious that we have a lot of respect for the man and the company he’s created. We would like to again publicly thank Steve for all he’s done to make our world a better place and wish him a speedy recovery.</p>
 
 <ol>
-<li>No, we’re not going to list real-life people we suspect would be in this camp. We’re above such things. [<a href="#identifier_0_1058">↩</a>]</li>
+  <li>No, we’re not going to list real-life people we suspect would be in this camp. We’re above such things. [<a href="#identifier_0_1058">↩</a>]</li>
 </ol>
 
 ]]></content>

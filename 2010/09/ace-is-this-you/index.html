@@ -9,8 +9,7 @@
   <meta name="author" content="Nate Dickson">
 
   
-  <meta name="description" content=" It’s amazing what you can find out about people on the web. Never would have guessed it.
-">
+  <meta name="description" content=" It’s amazing what you can find out about people on the web. Never would have guessed it. ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -95,12 +94,13 @@
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
 <p>It’s amazing what you can find out about people on the web.</p>
 
-<p><img src="http://a1.img.v4.skyrock.net/a10/ffm713/pics/1484140238_small.jpg" title="Ace's Secret Life" alt="An Album cover by the great Ace Duce" />
+<p><img src="http://a1.img.v4.skyrock.net/a10/ffm713/pics/1484140238_small.jpg" alt="An Album cover by the great Ace Duce" title="Ace's Secret Life" />
 Never would have guessed it.</p>
+
 </div>
 
 
@@ -164,6 +164,14 @@ Never would have guessed it.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -175,17 +183,27 @@ Never would have guessed it.</p>
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

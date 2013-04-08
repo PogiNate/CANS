@@ -94,7 +94,7 @@
   </header>
 
 
-<div class="entry-content"><h1></h1>
+<div class="entry-content"><h1 id="section"></h1>
 
 <p>Every Friday we publish a list of inFrequently Asked Questions and answers to help you, the Crazy Apple user, get more out of your Crazy Apple products.</p>
 
@@ -136,7 +136,7 @@
 
 <p>A: Yep, Bare Bones has shown you, once again, that they have what counts when little fly-by-night startups like <a href="http://macromates.com">TextMate</a> fall apart in the back stretch.  What’s that, TextMate? Can’t handle the jump to<a href="http://wiki.macromates.com/FAQ/TextMate2"> version 2.0</a>?  <a href="http://barebones.com/products/bbedit/">BBEdit</a>‘s on version 9 and:</p>
 
-<h3>It doesn’t suck.®</h3>
+<h3 id="it-doesnt-suck">It doesn’t suck.®</h3>
 
 <p>How’s that taste, you Euro-snob?  Where’s your precious Ruby on Rails now?</p>
 
@@ -212,6 +212,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/08/next-iphone-news-post/">Next iPhone News Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/08/return-of-the-footnote/">Return of the Footnote</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/05/friday-ifaq-ulysses/">Friday iFAQ: Ulysses</a>
       </li>
     
@@ -223,17 +231,27 @@
         <a href="/2011/12/channeling-douglas-adams/">Channeling Douglas Adams</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/10/thank-you-steve-jobs/">Thank You, Steve Jobs</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/08/brand-new-old-school-fun/">Brand New Old School Fun</a>
-      </li>
-    
   </ul>
 </section>
 
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:PogiNate">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "PogiNate"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
 
 
 

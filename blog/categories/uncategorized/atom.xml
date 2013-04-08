@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Uncategorized | Crazy Apple News Site]]></title>
   <link href="http://PogiNate.github.com/CANS/blog/categories/uncategorized/atom.xml" rel="self"/>
   <link href="http://PogiNate.github.com/CANS/"/>
-  <updated>2013-04-05T13:09:11-06:00</updated>
+  <updated>2013-04-08T15:53:55-06:00</updated>
   <id>http://PogiNate.github.com/CANS/</id>
   <author>
     <name><![CDATA[Nate Dickson]]></name>
@@ -18,23 +18,22 @@
     <link href="http://PogiNate.github.com/CANS/2011/07/six-minutes-to-lion/"/>
     <updated>2011-07-20T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/07/six-minutes-to-lion</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>I paid my 30 bones, I sat through the download, and now it’s all about the install process. What awaits my mac mini on the other side? Will all my documents be safer and somehow more stylish? Will I have a new desktop wallpaper? Why do we put wallpaper on desktops? How will I do things without a trackpad? Why did my “Time remaining:” timer just go from Five Minutes to 18 minutes? I’d like to answer these questions, but I can’t yet. I’m still watching a progress bar. So I’ll give you my current impressions of Lion, as follows:</p>
 
 <ul>
-<li>The Progress bar has square corners.</li>
+  <li>The Progress bar has square corners.</li>
 </ul>
-
 
 <p> </p>
 
-<p>So yeah, this article is not really ready yet. But that’s not stopping me from posting it! There’s a certain something about the cusp, the moments between leaving and arriving, that captivates the imagination. The trepidation of leaving behind a world you understand and the excitement of coming somewhere new, the fear that you’ll crash and burn somewhere in between. All these meet and are best expressed in the form of, well, a progress bar.</p>
+<p>So yeah, this article is not really ready yet. But that’s not stopping me from posting it! There’s a certain something about the cusp, the moments between leaving and arriving, that captivates the imagination. The trepidation of leaving behind a world you understand and the excitement of coming somewhere new, the fear that you’ll crash and burn somewhere in between. All these meet and are best expressed in the form of, well, a progress bar. </p>
 
 <p>More insight later. Assuming my computer doesn’t crash and burn<a href="#footnote_0_1137" title="Wait, how am I writing this article if my computer’s all tied up installing things?">1</a></p>
 
 <ol>
-<li>Wait, how am I writing this article if my computer’s all tied up installing things? [<a href="#identifier_0_1137">↩</a>]</li>
+  <li>Wait, how am I writing this article if my computer’s all tied up installing things? [<a href="#identifier_0_1137">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -45,7 +44,7 @@
     <link href="http://PogiNate.github.com/CANS/2011/07/funeral-services-to-be-held-for-mobile-me/"/>
     <updated>2011-07-12T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/07/funeral-services-to-be-held-for-mobile-me</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>A solemn occasion has befallen us, friends. Mobile Me, who just a few years ago looked to be back and healthier than ever, has taken a turn for the worse, and Apple has announced that they will be officially pulling the plug on the ailing service in the near future. Services will be held in Mobile Me’s honor on January 1st, 2012.</p>
 
@@ -64,13 +63,13 @@
     <link href="http://PogiNate.github.com/CANS/2011/07/lion-launch-parties-best-name-worst-turnout/"/>
     <updated>2011-07-08T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/07/lion-launch-parties-best-name-worst-turnout</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Self interest has curtailed interest in gathering to celebrate the latest release of OSX, promised later this month.</p>
 
 <p>“Don’t get me wrong, I enjoy hanging out with other people talking on their iPhon 4’s, while tweeting on their iPads, but it’s different this time,” said a young man wearing glasses that would have been in vogue in the late 50’s and a hairstyle that looked like somebody stuck his hair in a blender with a bunch of used motor oil and turned it on. “But if we all get together and try to download Lion at the same time it’ll slow all of us down. Sure, Apple may have a huge new data center in North Carolina, but we’ve got a 5Mbps connection on this end, and you can only pass so many downloads over that at a time.”</p>
 
-<p>Several Apple Sophisticates have suggested having “<em>Apres Load” </em>where everyone brings their newly lionized MacBooks to a party and discuss how awesome the world is now that their trackpads do neat tricks, but “it’s just not the same” moaned a person of indeterminate gender into their faux-martini.</p>
+<p>Several Apple Sophisticates have suggested having “*Apres Load” *where everyone brings their newly lionized MacBooks to a party and discuss how awesome the world is now that their trackpads do neat tricks, but “it’s just not the same” moaned a person of indeterminate gender into their faux-martini. </p>
 
 <p>Several of the more seasoned apple faithful were also somewhat at a loss as to how to celebrate the new OS in a manner that truly commemorated one of the most economical and at the same time most graphically inhanced versions of OSX without crowding each other bandwidth-wise. “If we could set up some sort of AppleTalk protocol to share the file from system to system it would be different, but this new Mac App Store doesn’t really work that way.” Said a person who drew blank stares from the hipster graphic design community when he said AppleTalk. “Is that like, networking stuff? Like, an airport?” one of them timidly suggested. “My IT guys take care of all that stuff for me.”</p>
 
@@ -85,15 +84,15 @@
     <link href="http://PogiNate.github.com/CANS/2011/06/lack-of-32-bit-lion-angers-people/"/>
     <updated>2011-06-27T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/06/lack-of-32-bit-lion-angers-people</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
-<p>A number<a href="#footnote_0_1132" title="two">1</a> of people are up in arms about the recent<a href="#footnote_1_1132" title="well, recent-ish">2</a> announcement that OSX 10.7 aka “Lion” will only be available for 64-bit Intel processors, leaving everyone who is still using a 32-bit “Core Duo” Mac out in the cold. With their Snow Leopard.</p>
+<p>A number<a href="#footnote_0_1132" title="two">1</a> of people are up in arms about the recent<a href="#footnote_1_1132" title="well, recent-ish">2</a> announcement that OSX 10.7 aka “Lion” will only be available for 64-bit Intel processors, leaving everyone who is still using a 32-bit “Core Duo” Mac out in the cold. With their Snow Leopard. </p>
 
 <p>“It’s like they don’t even care about us any more,” Said W. H. Iner, president of MOWERS<a href="#footnote_2_1132" title="Mac Owners Who Eschew RISC-based Systems">3</a> . We happily moved over to the new Intel chips as quick as possible, and six months later Apple replaced our beloved “Core Duo” chips with “Core 2 Duo” chips. That name doesn’t even make sense, by the way. How does the “2” in the middle of “Core” and “Duo” mean 64-bit instead of 32-bit?”</p>
 
 <p>Neither Apple nor Intel deigned to respond, but mathematicians were quick to point out that 32*2 does indeed equal 64.</p>
 
-<p>“It’s like they want us to all buy new Apples every five years or something,” Iner continued.</p>
+<p>“It’s like they want us to all buy new Apples every five years or something,” Iner continued. </p>
 
 <p>While Apple was still silent on this point, economists would be forced to conclude that, being a company that sells computer hardware, it would be in Apple’s best interest for their customers to replace their computer hardware on a regular basis.</p>
 
@@ -106,9 +105,9 @@
 <p>While we are still awaiting a response from Apple on this point, but economists mildly reminded us that Apple is one the largest and fastest-growing companies on the planet at this point. How the lack of sales to the members of MOWERS would affect this statistic has yet to be seen.</p>
 
 <ol>
-<li>two [<a href="#identifier_0_1132">↩</a>]</li>
-<li>well, recent-ish [<a href="#identifier_1_1132">↩</a>]</li>
-<li>Mac Owners Who Eschew RISC-based Systems [<a href="#identifier_2_1132">↩</a>]</li>
+  <li>two [<a href="#identifier_0_1132">↩</a>]</li>
+  <li>well, recent-ish [<a href="#identifier_1_1132">↩</a>]</li>
+  <li>Mac Owners Who Eschew RISC-based Systems [<a href="#identifier_2_1132">↩</a>]</li>
 </ol>
 
 ]]></content>
@@ -119,21 +118,21 @@
     <link href="http://PogiNate.github.com/CANS/2011/06/florida-idaho-and-moab-the-adventure-never-ended/"/>
     <updated>2011-06-24T00:00:00-06:00</updated>
     <id>http://PogiNate.github.com/CANS/2011/06/florida-idaho-and-moab-the-adventure-never-ended</id>
-    <content type="html"><![CDATA[<h1></h1>
+    <content type="html"><![CDATA[<h1 id="section"></h1>
 
 <p>Long have I wandered, friendless<a href="#footnote_0_1129" title="Except for my wife, kids, and friends">1</a> and alone<a href="#footnote_1_1129" title="see above exception">2</a> in distant lands. Far have I driven, far have I flown, and when I was not flying or driving I was playing host to a host of visitors from foreign climes<a href="#footnote_2_1129" title="Idaho and Alaska mostly">3</a>. Thus do I seek to excuse my lack of Apple-centered craziness for the last few weeks.<a href="#footnote_3_1129" title="Also I got a new job, but that’s no big deal">4</a>.</p>
 
-<p>And what have I learned? What treasures do I bring from my sojourns? Treasures of knowledge? Rich spices from Idaho? Alligator teeth and knowledge of the fountain of youth from Florida? Red Dirt from Moab? Well, yes to the last one. LOTS of red dirt. So much red dirt. Seriously, half of southern Utah is still in my wife’s Suburban. But rich spices from Idaho? What do you want? Beet sugar? Potatoes? They have those. But I was in Boise, where all they have is a mall and lots of suburbs. And Trees. And a river. No spices though, is my point. Not a spice-laden region of earth.</p>
+<p>And what have I learned? What treasures do I bring from my sojourns? Treasures of knowledge? Rich spices from Idaho? Alligator teeth and knowledge of the fountain of youth from Florida? Red Dirt from Moab? Well, yes to the last one. LOTS of red dirt. So much red dirt. Seriously, half of southern Utah is still in my wife’s Suburban. But rich spices from Idaho? What do you want? Beet sugar? Potatoes? They have those. But I was in Boise, where all they have is a mall and lots of suburbs. And Trees. And a river. No spices though, is my point. Not a spice-laden region of earth. </p>
 
 <p>But, I have just invented one treasure that I bring to you, a genuine, made up letter from Steve Jobs to all Apple employees, titled “Some Thoughts On Being the Best”</p>
 
-<h2>Some Thoughts on Being the Best</h2>
+<h2 id="some-thoughts-on-being-the-best">Some Thoughts on Being the Best</h2>
 
 <p>Heed me, O Minions,</p>
 
 <p>The great day is soon upon us. The war that started with the humble iPod has seen its killing stroke in the iPad. We now rule the mobile world. Let us therefore celebrate! Make glad! Feast we now on ambrosia and drink we deep the mead of victory!</p>
 
-<p>In your case this means you get an extra fifteen minutes on your lunch break this Tuesday. Being drunk on work time is still a firing offense.</p>
+<p>In your case this means you get an extra fifteen minutes on your lunch break this Tuesday. Being drunk on work time is still a firing offense. </p>
 
 <p>But we must not stop now. There are still those who have sought to cast aspersions on our rise, magnifying our few flaws into “gates”, seeking to embarrass us. This shall not stand.</p>
 
@@ -145,25 +144,25 @@
 
 <p>Soon, our masterpiece will be finished, then shall the chosen employees be taken up in our new Campus to the true new campus: The moon.</p>
 
-<p>Yes, in order that we may escape the slings and arrows of outrageous Windows users, all key Apple employees will be lifted to Apple Luna, our new campus on the near side of the moon. This position will give us many advantages, not least of which is the fact that on the moon I can expect to live a good thirty or forty more years, and by that time I expect that we’ll have some kind of immortality treatment. But again, I digress.</p>
+<p>Yes, in order that we may escape the slings and arrows of outrageous Windows users, all key Apple employees will be lifted to Apple Luna, our new campus on the near side of the moon. This position will give us many advantages, not least of which is the fact that on the moon I can expect to live a good thirty or forty more years, and by that time I expect that we’ll have some kind of immortality treatment. But again, I digress. </p>
 
-<p>From our inaccessible fortress we will watch them fight each other, Windows vs. Linux and periodically we shall send down our blessings upon them in the form of new mobile operating systems and Jony’s latest thinking in industrial design.</p>
+<p>From our inaccessible fortress we will watch them fight each other, Windows vs. Linux and periodically we shall send down our blessings upon them in the form of new mobile operating systems and Jony’s latest thinking in industrial design. </p>
 
 <p>He’s really into pleather lately, so expect some interesting new iPads, by the way.</p>
 
-<p>Apple Luna will be ecologically sound, as there is currently no plant or animal life on the moon. Our terraforming efforts will begin immediately, and we expect that in a few years we will be ready to open the houses on One Lunar Loop. Until then you’ll all be basically living at your desks. But the cafeteria will be cheaper, in recognition of the unique situation you’ve been put in, which is to say, fully dependent on Apple for all food and housing and everything.</p>
+<p>Apple Luna will be ecologically sound, as there is currently no plant or animal life on the moon. Our terraforming efforts will begin immediately, and we expect that in a few years we will be ready to open the houses on One Lunar Loop. Until then you’ll all be basically living at your desks. But the cafeteria will be cheaper, in recognition of the unique situation you’ve been put in, which is to say, fully dependent on Apple for all food and housing and everything. </p>
 
-<p>Those of you who have not been assigned desks in the new complex probably don’t need to worry about packing. After all, we need a few people here planetside to keep things on track.</p>
+<p>Those of you who have not been assigned desks in the new complex probably don’t need to worry about packing. After all, we need a few people here planetside to keep things on track. </p>
 
 <p> </p>
 
 <p>Steve.</p>
 
 <ol>
-<li>Except for my wife, kids, and friends [<a href="#identifier_0_1129">↩</a>]</li>
-<li>see above exception [<a href="#identifier_1_1129">↩</a>]</li>
-<li>Idaho and Alaska mostly [<a href="#identifier_2_1129">↩</a>]</li>
-<li>Also I got a new job, but that’s no big deal [<a href="#identifier_3_1129">↩</a>]</li>
+  <li>Except for my wife, kids, and friends [<a href="#identifier_0_1129">↩</a>]</li>
+  <li>see above exception [<a href="#identifier_1_1129">↩</a>]</li>
+  <li>Idaho and Alaska mostly [<a href="#identifier_2_1129">↩</a>]</li>
+  <li>Also I got a new job, but that’s no big deal [<a href="#identifier_3_1129">↩</a>]</li>
 </ol>
 
 ]]></content>
