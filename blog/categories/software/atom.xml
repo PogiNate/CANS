@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: software | Crazy Apple News Site]]></title>
+  <link href="http://PogiNate.github.com/CANS/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://PogiNate.github.com/CANS/"/>
+  <updated>2013-04-26T10:01:38-06:00</updated>
+  <id>http://PogiNate.github.com/CANS/</id>
+  <author>
+    <name><![CDATA[Nate Dickson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Friday iFAQ: Cloak]]></title>
+    <link href="http://PogiNate.github.com/CANS/blog/2013/04/26/friday-ifaq-cloak/"/>
+    <updated>2013-04-26T09:57:00-06:00</updated>
+    <id>http://PogiNate.github.com/CANS/blog/2013/04/26/friday-ifaq-cloak</id>
+    <content type="html"><![CDATA[<p>Every Friday<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> we publish a list of inFrequently Answered Questions and answers to help you, the Crazy Apple user, get more out of your Crazy Apple products. </p>
+
+<p>This week we help you stay safe on the public byways of network traffic with <a href="https://www.getcloak.com/">Cloak</a>, a VPN solution from Seattle, Washington<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>.</p>
+
+<p><strong>Q</strong>: Oh man, this is great!</p>
+
+<p><strong>A</strong>: Really? Usually it takes you a while longer to get on board with these things.</p>
+
+<p><strong>Q</strong>: No, seriously, what problem could I possibly have with a simple, all-in-one vpn solution?</p>
+
+<p><strong>A</strong>: You’re not freaked out about having passing through someone else’s vpn servers? Not going to get all bent out of shape about Seattle’s weather, or their abandonment of the coffeehouse? </p>
+
+<p><strong>Q</strong>: Look, I don’t know what your deal is. I like hanging out at said coffeehouses, and when I’m on their wi-fi it’s good to know that nobody else can read my packets.</p>
+
+<p><strong>A</strong>: Well, sure, I think it’s pretty great too, but usually I have to talk you into these things. Come on, we had a whole rhythm going. </p>
+
+<p><strong>Q</strong>: Look, I’m a sensible consonant. I like to make sure my data is going where I intend it to go and not wandering around the café without my permission. This company’s pricing scheme is super reasonable, their technology works on OSX and iOS, I just…don’t see the problem here.</p>
+
+<p><strong>A</strong>: Well there you are then. I guess my job is done.</p>
+
+<p><strong>Q</strong>: Yep, I’m totally happy with the Cloak and Dagger vpn service.</p>
+
+<p><strong>A</strong>: Um, there’s no dagger, actually.</p>
+
+<p><strong>Q</strong>: What’s that?</p>
+
+<p><strong>A</strong>: It’s not “Cloak and Dagger”. It’s just “Cloak”.</p>
+
+<p><strong>Q</strong>: Oh man, this changes everything!</p>
+
+<p><strong>A</strong>: There it is.</p>
+
+<p><strong>Q</strong>: I mean, how can you have a cloak without a dagger?</p>
+
+<p><strong>A</strong>: This is what I’m used to. Blind, unreasoning panic.</p>
+
+<p><strong>Q</strong>: I mean, I’ll keep using it, but, but…it’s just not cool any more. I wanna keep my activities secret, but what if I ALSO want to stab people?</p>
+
+<p><strong>A</strong>: You…should see a therapist, I guess?</p>
+
+<p><strong>Q</strong>: I’m leaving. That’s all there is to it! I’m out of here. You expect me to stay here and put up with this? <code>[SLAMS DOOR]</code>. </p>
+
+<p><strong>A</strong>: Well, that was fun. </p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Or so. As the situation warrants.<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>We were going to say it was from a company whose name we couldn’t quite remember, but they seem to have changed it to just “Cloak”. We could have deleted everything from the word “from” onward, but that’s just not how we roll.<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+</feed>
